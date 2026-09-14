@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Wi_lNTjj11I5pxp1I_UA">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-1" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Capa de despliegue" vertex="1">
+          <mxGeometry height="276" width="595" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-2" parent="Dp_NcAWg5PAv2IXUQuD4-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Vercel&#xa;Frontend React" vertex="1">
+          <mxGeometry height="78" width="170" x="394" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-3" parent="Dp_NcAWg5PAv2IXUQuD4-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="GitHub&#xa;CI/CD · Versiones" vertex="1">
+          <mxGeometry height="78" width="184" x="46" y="107" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-4" parent="Dp_NcAWg5PAv2IXUQuD4-1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Render&#xa;Backend Django" vertex="1">
+          <mxGeometry height="78" width="174" x="391" y="171" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-5" edge="1" parent="Dp_NcAWg5PAv2IXUQuD4-1" source="Dp_NcAWg5PAv2IXUQuD4-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.06;entryX=0;entryY=0.5;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-2" value="deploy hook">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-6" edge="1" parent="Dp_NcAWg5PAv2IXUQuD4-1" source="Dp_NcAWg5PAv2IXUQuD4-3" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.94;entryX=0;entryY=0.5;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-4" value="deploy hook">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-7" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);verticalAlign=top;" value="Capa de datos" vertex="1">
+          <mxGeometry height="282" width="623" x="517" y="1006" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-8" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);verticalAlign=top;" value="Capa de aplicación — Django REST Framework" vertex="1">
+          <mxGeometry height="536" width="789" x="469" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-9" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);verticalAlign=top;" value="Capa de usuario" vertex="1">
+          <mxGeometry height="326" width="532" x="650" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-10" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Navegador web&#xa;React + Tailwind CSS" vertex="1">
+          <mxGeometry height="78" width="207" x="685" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-11" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Vista móvil&#xa;React (firma digital)" vertex="1">
+          <mxGeometry height="78" width="205" x="942" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-12" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Auth Service&#xa;JWT + bcrypt" vertex="1">
+          <mxGeometry height="78" width="155" x="788" y="597" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-13" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="API REST Core&#xa;Obras · RRHH · Logística · Finanzas" vertex="1">
+          <mxGeometry height="102" width="260" x="662" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-14" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PDF Service&#xa;WeasyPrint" vertex="1">
+          <mxGeometry height="78" width="144" x="518" y="853" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-15" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Roles &amp; Permisos&#xa;Gerencia · Supervisor" vertex="1">
+          <mxGeometry height="78" width="214" x="758" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-16" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Notificaciones&#xa;Alertas de estado" vertex="1">
+          <mxGeometry height="78" width="185" x="1022" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-17" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="ORM / Queries&#xa;Django ORM → PostgreSQL" vertex="1">
+          <mxGeometry height="78" width="251" x="790" y="853" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-18" parent="1" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="PostgreSQL&#xa;Supabase managed" vertex="1">
+          <mxGeometry height="104" width="151" x="943" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="File Storage&#xa;Supabase Storage" vertex="1">
+          <mxGeometry height="78" width="185" x="699" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Audit Log&#xa;Transacciones" vertex="1">
+          <mxGeometry height="78" width="159" x="685" y="1057" as="geometry" />
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-21" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-10" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.49;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-13" value="HTTPS / REST">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="788" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-22" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-11" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.11;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-13" value="HTTPS / REST">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1044" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-23" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.68;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-12" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-24" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-13" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.97;entryX=0.5;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-25" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-12" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-26" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-13" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.8;entryX=0.5;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1114" y="572" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-27" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-13" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.03;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="723" y="572" />
+              <mxPoint x="723" y="828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-28" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-15" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.38;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="865" y="828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-29" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-16" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.98;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-17" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1114" y="828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-30" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-17" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-18" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1021" y="956" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-31" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-14" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.12;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-32" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-17" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="956" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Dp_NcAWg5PAv2IXUQuD4-33" edge="1" parent="1" source="Dp_NcAWg5PAv2IXUQuD4-18" style="curved=1;startArrow=none;endArrow=none;exitX=0.5;exitY=1;entryX=1;entryY=0.17;rounded=0;" target="Dp_NcAWg5PAv2IXUQuD4-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1021" y="1160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

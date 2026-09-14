@@ -1,0 +1,150 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama 4 - Gestionando Logistica e inventario" id="Diagrama4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1700" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="boundary" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=none;strokeColor=#000000;fontStyle=1;fontSize=12;" value="Diagrama 4: Gestionando Logística e inventario" vertex="1">
+          <mxGeometry height="1420" width="1000" x="300" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;" value="Administrador total" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;strokeColor=#000000;fontColor=#000000;" value="Supervisor de obra" vertex="1">
+          <mxGeometry height="60" width="30" x="40" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="CU26" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-26: Gestionando catálogo maestro" vertex="1">
+          <mxGeometry height="90" width="200" x="400" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CU27" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-27: Generando solicitud de materiales" vertex="1">
+          <mxGeometry height="90" width="200" x="400" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="CU28" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-28: Validando solicitud" vertex="1">
+          <mxGeometry height="90" width="200" x="740" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="CU29" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-29: Asignación y trazabilidad" vertex="1">
+          <mxGeometry height="90" width="200" x="400" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="CU50" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-50: Centralizando documentación técnica" vertex="1">
+          <mxGeometry height="90" width="200" x="740" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="CU51" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-51: Gestionando activos compartidos" vertex="1">
+          <mxGeometry height="90" width="200" x="1080" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="CU30" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-30: Registrando ingreso por guía" vertex="1">
+          <mxGeometry height="90" width="200" x="440" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="CU31" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-31: Monitoreando materiales en tránsito" vertex="1">
+          <mxGeometry height="90" width="200" x="740" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="CU32" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-32: Reingreso de materiales" vertex="1">
+          <mxGeometry height="90" width="200" x="400" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="CU38" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-38: Gestionando certificados de calidad" vertex="1">
+          <mxGeometry height="90" width="200" x="840" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="CU33" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-33: Subiendo documentación técnica" vertex="1">
+          <mxGeometry height="90" width="200" x="400" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="CU43" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-43: Descargando certificados de garantía" vertex="1">
+          <mxGeometry height="90" width="200" x="740" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="CU58" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-58: Registrando recepción en obra" vertex="1">
+          <mxGeometry height="90" width="200" x="740" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="CU60" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-60: Dando de alta herramientas en el catálogo maestro" vertex="1">
+          <mxGeometry height="90" width="200" x="1080" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="CU61" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-61: Confirmando despacho de guía por el proveedor" vertex="1">
+          <mxGeometry height="90" width="200" x="1080" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="CU62" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-62: Rebajando el costo de obra al reingresar materiales sobrantes" vertex="1">
+          <mxGeometry height="90" width="200" x="1080" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="CU59" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontColor=#000000;" value="CU-59: Dando de alta modelos de equipo HVAC" vertex="1">
+          <mxGeometry height="90" width="200" x="1080" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="a1" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="a1" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="a1" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="a1" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="a1" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="a1" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="CU26" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU27" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="CU27" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU28" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="CU29" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU50" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.0049" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="CU51" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU50" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="CU30" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU31" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="CU32" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU38" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" source="CU33" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU43" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" source="CU58" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU30" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" source="a2" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" source="CU29" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU60" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" source="CU30" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU61" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" source="CU61" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU31" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" source="CU32" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU62" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" source="CU33" style="endArrow=open;endFill=0;html=1;endSize=8;dashed=1;strokeColor=#000000;fontColor=#0000CC;labelBackgroundColor=#ffffff;" target="CU59" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nfaVQhbAu00aBaGQgWOv-1" edge="1" parent="1" source="a2" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1340" as="sourcePoint" />
+            <mxPoint x="517" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfaVQhbAu00aBaGQgWOv-2" edge="1" parent="1" source="a2" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="990" as="sourcePoint" />
+            <mxPoint x="817" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nfaVQhbAu00aBaGQgWOv-3" edge="1" parent="1" source="a2" style="endArrow=open;endFill=0;html=1;endSize=8;strokeColor=#000000;rounded=0;" target="CU30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1150" as="sourcePoint" />
+            <mxPoint x="807" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

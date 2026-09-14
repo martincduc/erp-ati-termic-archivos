@@ -1,0 +1,227 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="CU62-corregido">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1385" pageHeight="1010" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tit" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;" value="CU62: Rebajando el Costo de Obra al Reingresar Materiales Sobrantes" vertex="1">
+          <mxGeometry height="25" width="1285" x="50" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="h_a" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;fontStyle=1;" value="Administrador" vertex="1">
+          <mxGeometry height="55" width="50" x="35" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h_v" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#198CC4);" value="V_ControlCostos" vertex="1">
+          <mxGeometry height="50" width="140" x="140" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h_c" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#512D2B);" value="C_ControlCostos" vertex="1">
+          <mxGeometry height="50" width="140" x="340" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h_db" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#5E3206);" value="C_MySQL" vertex="1">
+          <mxGeometry height="50" width="110" x="555" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h_proy" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#203A00);" value="Proyecto" vertex="1">
+          <mxGeometry height="50" width="110" x="755" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h_fact" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#203A00);" value="Factura" vertex="1">
+          <mxGeometry height="50" width="110" x="945" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dev" parent="1" style="html=1;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#203A00);" value="DevolucionObra" vertex="1">
+          <mxGeometry height="50" width="140" x="1120" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_a" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="855" width="10" x="55" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_v" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="820" width="10" x="205" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_c" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="820" width="10" x="405" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_db" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="820" width="10" x="605" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_proy" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="820" width="10" x="805" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_fact" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="820" width="10" x="995" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ll_dev" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
+          <mxGeometry height="820" width="10" x="1185" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="190" as="sourcePoint" />
+            <mxPoint x="205" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m1l" connectable="0" parent="m1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="1: abrirControlCostos(proyecto)" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="230" as="sourcePoint" />
+            <mxPoint x="405" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m2l" connectable="0" parent="m2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="2: GET /api/control-costos/gastos-reales/:codigo → getGastosReales()" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nota1" parent="1" style="text;html=1;strokeColor=#999999;fillColor=#ffffcc;fontSize=9;align=left;rounded=1;" value="[si se indica un periodo, debe tener formato AAAA-MM → HTTP 400]" vertex="1">
+          <mxGeometry height="30" width="295" x="425" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="295" as="sourcePoint" />
+            <mxPoint x="605" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m3l" connectable="0" parent="m3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="3: QUERY()" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="340" as="sourcePoint" />
+            <mxPoint x="805" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m4l" connectable="0" parent="m4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="4: SELECT * FROM proyecto WHERE proyecto_codigo_correlativo=?" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="805" y="360" as="sourcePoint" />
+            <mxPoint x="615" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m5l" connectable="0" parent="m5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="5: return resultado" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="385" as="sourcePoint" />
+            <mxPoint x="415" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6l" connectable="0" parent="m6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="6: return proyecto" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nota2" parent="1" style="text;html=1;strokeColor=#999999;fillColor=#ffffcc;fontSize=9;align=left;rounded=1;" value="[si el proyecto no existe → HTTP 404]" vertex="1">
+          <mxGeometry height="30" width="165" x="425" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="480" as="sourcePoint" />
+            <mxPoint x="605" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m7l" connectable="0" parent="m7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="7: QUERY() → costoAcumuladoPorMes(codigo)" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="520" as="sourcePoint" />
+            <mxPoint x="995" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8l" connectable="0" parent="m8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="8: SELECT DATE_FORMAT(factura_fecha,&#39;%Y-%m&#39;) mes, SUM(factura_monto_total) FROM factura INNER JOIN orden_compra ... WHERE proyecto_codigo_correlativo=? GROUP BY mes" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="540" as="sourcePoint" />
+            <mxPoint x="615" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m9l" connectable="0" parent="m9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="9: return cargos por mes (facturas)" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="560" as="sourcePoint" />
+            <mxPoint x="415" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m10l" connectable="0" parent="m10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="10: return cargos" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m11" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="590" as="sourcePoint" />
+            <mxPoint x="605" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m11l" connectable="0" parent="m11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="11: QUERY()" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m12" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;align=left;verticalAlign=top;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="630" as="sourcePoint" />
+            <mxPoint x="1185" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m12l" connectable="0" parent="m12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="12: SELECT DATE_FORMAT(devolucion_obra_fecha,&#39;%Y-%m&#39;) mes, SUM(devolucion_obra_monto_rebajado) FROM devolucion_obra WHERE proyecto_codigo_correlativo=? GROUP BY mes" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1185" y="650" as="sourcePoint" />
+            <mxPoint x="615" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m13l" connectable="0" parent="m13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="13: return créditos por mes (reingresos)" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="680" as="sourcePoint" />
+            <mxPoint x="415" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m14l" connectable="0" parent="m14" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="14: return créditos" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nota3" parent="1" style="text;html=1;strokeColor=#999999;fillColor=#ffffcc;fontSize=9;align=left;rounded=1;" value="Por cada mes: acumulado = cargos (facturas) − créditos, nunca negativo. Un crédito solo descuenta costo ya facturado: si el material se devuelve antes de que llegue su factura, la rebaja queda pendiente hasta que la factura se registra.&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="955" x="425" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="nota4" parent="1" style="text;html=1;strokeColor=#999999;fillColor=#ffffcc;fontSize=9;align=left;rounded=1;" value="varianza = presupuesto − gastos_reales; porcentaje_desviacion = ((gastos_reales − presupuesto) / presupuesto) × 100 (cálculo en memoria, no persiste)" vertex="1">
+          <mxGeometry height="30" width="630" x="425" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="850" as="sourcePoint" />
+            <mxPoint x="215" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m15l" connectable="0" parent="m15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="15: return { presupuesto, gastos_reales, varianza, porcentaje_desviacion, monto_rebajado_reingresos }" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="205" y="900" as="sourcePoint" />
+            <mxPoint x="65" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m16l" connectable="0" parent="m16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;" value="16: mostrarGraficoDesviacion(datos) — el costo real y la curva de desviación ya reflejan el monto rebajado por los reingresos de materiales sobrantes" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

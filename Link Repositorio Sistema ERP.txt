@@ -1,0 +1,2 @@
+Para ver el código que efectúa el programa:
+https://github.com/Arancibia14/erp-ati-termic-main
