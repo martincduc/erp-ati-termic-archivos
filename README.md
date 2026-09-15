@@ -1,5 +1,8 @@
 # Guía de Instalación — ERP ATI Termic
 
+Para ver el código que efectúa el programa:
+https://github.com/Arancibia14/erp-ati-termic-main
+
 ## Programas necesarios
 
 Antes de comenzar, asegúrate de tener instalados los siguientes programas:
