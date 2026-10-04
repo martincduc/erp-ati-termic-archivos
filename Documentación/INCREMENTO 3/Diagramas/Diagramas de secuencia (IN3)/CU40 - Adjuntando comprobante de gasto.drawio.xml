@@ -1,0 +1,334 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="xJquXh1BqW7g8fCGOglC">
+    <mxGraphModel dx="783" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xJquXh1BqW7g8fCGOglC-38" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=16;fontStyle=1;strokeColor=none;fillColor=none;" value="CU 40: Adjuntando comprobante de gasto" vertex="1">
+          <mxGeometry height="30" width="1987" x="40" y="16" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-39" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Administrador Total / Supervisor de Obra" vertex="1">
+          <mxGeometry height="52" width="26" x="117" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" value="V_CajaChica" vertex="1">
+          <mxGeometry height="40" width="140" x="605" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" value="C_CajaChica" vertex="1">
+          <mxGeometry height="40" width="140" x="897" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" value="C_MySQL" vertex="1">
+          <mxGeometry height="40" width="140" x="1254" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Proyecto" vertex="1">
+          <mxGeometry height="40" width="140" x="1487" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="EgresoCajaChica" vertex="1">
+          <mxGeometry height="40" width="140" x="1687" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="LogAuditoria" vertex="1">
+          <mxGeometry height="40" width="140" x="1887" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-46" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="134" as="sourcePoint" />
+            <mxPoint x="130" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-47" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="675" y="130" as="sourcePoint" />
+            <mxPoint x="675" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-48" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="967" y="130" as="sourcePoint" />
+            <mxPoint x="967" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-49" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1324" y="130" as="sourcePoint" />
+            <mxPoint x="1324" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-50" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1557" y="130" as="sourcePoint" />
+            <mxPoint x="1557" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-51" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1757" y="130" as="sourcePoint" />
+            <mxPoint x="1757" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-52" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1957" y="130" as="sourcePoint" />
+            <mxPoint x="1957" y="1780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1552" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1319" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1752" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1319" y="396" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="324" width="10" x="962" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="396" width="10" x="670" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="670" y="612" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="224" width="10" x="670" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1752" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1319" y="1094" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1752" y="1352" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1319" y="1316" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1952" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1319" y="1554" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="718" width="10" x="962" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="790" width="10" x="670" y="944" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="1574" width="10" x="125" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-1" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="1. Ingresa a &quot;Caja Chica&quot; y selecciona el proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="180" as="sourcePoint" />
+            <mxPoint x="670" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-2" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="2. Solicitar saldo y egresos del proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="216" as="sourcePoint" />
+            <mxPoint x="962" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-3" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="3. Obtener fondo de caja chica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="252" as="sourcePoint" />
+            <mxPoint x="1319" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-4" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="4. Ejecutar consulta en Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1329" y="288" as="sourcePoint" />
+            <mxPoint x="1552" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-5" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="5. Resultado de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1552" y="324" as="sourcePoint" />
+            <mxPoint x="1329" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-6" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="6. Respuesta de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1319" y="360" as="sourcePoint" />
+            <mxPoint x="972" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-7" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="7. Consultar egresos del proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="396" as="sourcePoint" />
+            <mxPoint x="1319" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-8" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="8. Ejecutar consulta en EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1329" y="432" as="sourcePoint" />
+            <mxPoint x="1752" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-9" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="9. Resultado de EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1752" y="468" as="sourcePoint" />
+            <mxPoint x="1329" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-10" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="10. Respuesta de EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1319" y="504" as="sourcePoint" />
+            <mxPoint x="972" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-11" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="11. Saldo disponible e historial de egresos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="540" as="sourcePoint" />
+            <mxPoint x="680" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-12" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="12. Mostrar egresos con &quot;Adjuntar Comprobante&quot; o &quot;Ver comprobante&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="576" as="sourcePoint" />
+            <mxPoint x="135" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-13" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="13. Presiona &quot;Adjuntar Comprobante&quot; en un egreso sin respaldo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="612" as="sourcePoint" />
+            <mxPoint x="670" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-14" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="14. Mostrar fecha, concepto y monto del egreso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="648" as="sourcePoint" />
+            <mxPoint x="135" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-15" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="15. Toma la foto de la boleta o selecciona un archivo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="684" as="sourcePoint" />
+            <mxPoint x="670" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-16" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 1: error de cámara&lt;/b&gt;&lt;br&gt;Si la cámara falla o el actor la cierra sin foto, no se adjunta nada y puede&lt;br&gt;volver a intentarlo. Si la foto sale borrosa, presiona &quot;Tomar otra&quot; o&lt;br&gt;&quot;Cancelar&quot; antes de guardar." vertex="1">
+          <mxGeometry height="78" width="463" x="693" y="702" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-17" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Formato o tamaño no válido&lt;/b&gt;&lt;br&gt;Solo se aceptan JPG, PNG, WEBP o PDF de hasta 10 MB. Si no cumple, la vista&lt;br&gt;muestra &quot;Formato no válido&quot; o &quot;El archivo supera el límite de 10 MB&quot; y no lo&lt;br&gt;envía." vertex="1">
+          <mxGeometry height="78" width="463" x="693" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-18" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="16. Mostrar vista previa y aviso de que no se podrá reemplazar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="908" as="sourcePoint" />
+            <mxPoint x="135" y="908" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-19" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="17. Presiona &quot;Guardar Respaldo&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="944" as="sourcePoint" />
+            <mxPoint x="670" y="944" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-20" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="18. Enviar comprobante validado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="980" as="sourcePoint" />
+            <mxPoint x="962" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-21" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Validación en el servidor&lt;/b&gt;&lt;br&gt;El servidor repite la revisión de formato y tamaño. Si no llega archivo&lt;br&gt;responde &quot;Toma una foto de la boleta o selecciona un archivo&quot;." vertex="1">
+          <mxGeometry height="62" width="434" x="985" y="998" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-22" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="19. Buscar egreso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="1094" as="sourcePoint" />
+            <mxPoint x="1319" y="1094" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-23" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="20. Ejecutar consulta en EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1329" y="1130" as="sourcePoint" />
+            <mxPoint x="1752" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-24" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="21. Resultado de EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1752" y="1166" as="sourcePoint" />
+            <mxPoint x="1329" y="1166" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-25" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="22. Respuesta de EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1319" y="1202" as="sourcePoint" />
+            <mxPoint x="972" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-26" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Egreso inexistente&lt;/b&gt;&lt;br&gt;Si el egreso no existe, el sistema borra el archivo recibido y responde &quot;El&lt;br&gt;egreso no existe&quot;." vertex="1">
+          <mxGeometry height="62" width="457" x="985" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-27" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="23. Guardar comprobante solo si el egreso no tiene uno">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="1316" as="sourcePoint" />
+            <mxPoint x="1319" y="1316" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-28" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="24. Ejecutar consulta en EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1329" y="1352" as="sourcePoint" />
+            <mxPoint x="1752" y="1352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-29" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="25. Resultado de EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1752" y="1388" as="sourcePoint" />
+            <mxPoint x="1329" y="1388" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-30" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="26. Respuesta de EgresoCajaChica">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1319" y="1424" as="sourcePoint" />
+            <mxPoint x="972" y="1424" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-31" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Comprobante ya guardado&lt;/b&gt;&lt;br&gt;Si otro usuario ya guardó un comprobante en ese egreso, el sistema borra el&lt;br&gt;archivo y responde &quot;Este egreso ya tiene un comprobante guardado y no se puede&lt;br&gt;reemplazar&quot;." vertex="1">
+          <mxGeometry height="78" width="474" x="985" y="1442" as="geometry" />
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-32" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="27. Registrar la acción en el log de auditoría">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="972" y="1554" as="sourcePoint" />
+            <mxPoint x="1319" y="1554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-33" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="28. Ejecutar consulta en LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1329" y="1590" as="sourcePoint" />
+            <mxPoint x="1952" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-34" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="29. Resultado de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1952" y="1626" as="sourcePoint" />
+            <mxPoint x="1329" y="1626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-35" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="30. Respuesta de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1319" y="1662" as="sourcePoint" />
+            <mxPoint x="972" y="1662" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-36" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="31. Comprobante guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="1698" as="sourcePoint" />
+            <mxPoint x="680" y="1698" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xJquXh1BqW7g8fCGOglC-37" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="32. Mensaje &quot;Comprobante guardado correctamente&quot; y el egreso muestra &quot;Ver comprobante&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="1734" as="sourcePoint" />
+            <mxPoint x="135" y="1734" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

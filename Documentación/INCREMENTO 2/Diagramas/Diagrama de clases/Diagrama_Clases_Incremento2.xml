@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama de Clases – Segundo Incremento – Sistema ERP ATI Termic SpA" id="clases">
+    <mxGraphModel dx="3360" dy="2009" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3420" pageHeight="1591" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tit" parent="1" style="text;html=1;align=left;fontSize=18;fontStyle=1;" value="Diagrama de Clases – Segundo Incremento – Sistema ERP ATI Termic SpA" vertex="1">
+          <mxGeometry height="30" width="1400" x="40" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="R0" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ADMINISTRADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R1" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_SUPERVISOR_TERRENO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_LOG_AUDITORIA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R3" edge="1" parent="1" source="C_ESTADO_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_PROYECTO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_HITO_TECNICO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R5" edge="1" parent="1" source="C_HITO_TECNICO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_EVIDENCIA_FOTOGRAFICA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R6" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_BITACORA_DIARIA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R7" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_BITACORA_DIARIA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R8" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_BITACORA_COMUNICACION" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R9" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_BITACORA_COMUNICACION" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R10" edge="1" parent="1" source="C_MODELO_HVAC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_EQUIPO_HVAC" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R11" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_EQUIPO_HVAC" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R12" edge="1" parent="1" source="C_MODELO_HVAC" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_DOCUMENTO_EQUIPO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R13" edge="1" parent="1" source="C_PROVEEDOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_MATERIAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R14" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_SOLICITUD_MATERIAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R15" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_SOLICITUD_MATERIAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R16" edge="1" parent="1" source="C_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_SOLICITUD_MATERIAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R17" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ORDEN_COMPRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R18" edge="1" parent="1" source="C_SOLICITUD_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ORDEN_COMPRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R19" edge="1" parent="1" source="C_PROVEEDOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ORDEN_COMPRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R20" edge="1" parent="1" source="C_ORDEN_COMPRA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_DETALLE_ORDEN_COMPRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R21" edge="1" parent="1" source="C_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_DETALLE_ORDEN_COMPRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R22" edge="1" parent="1" source="C_ORDEN_COMPRA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_FACTURA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R23" edge="1" parent="1" source="C_PROVEEDOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_GUIA_DESPACHO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R24" edge="1" parent="1" source="C_ORDEN_COMPRA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_GUIA_DESPACHO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R25" edge="1" parent="1" source="C_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_GUIA_DESPACHO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R26" edge="1" parent="1" source="C_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_CERTIFICADO_CALIDAD" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R27" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_CERTIFICADO_CALIDAD" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R28" edge="1" parent="1" source="C_GUIA_DESPACHO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_CERTIFICADO_CALIDAD" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R29" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_DEVOLUCION_OBRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R30" edge="1" parent="1" source="C_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_DEVOLUCION_OBRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R31" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_DEVOLUCION_OBRA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R32" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_HERRAMIENTA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R33" edge="1" parent="1" source="C_HERRAMIENTA" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_ASIGNACION_HERRAMIENTA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R34" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_ASIGNACION_HERRAMIENTA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R35" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_ASIGNACION_HERRAMIENTA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R36" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_EGRESO_CAJA_CHICA" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R37" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_CONTROL_CAMBIO_PPTO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R38" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_CONTROL_CAMBIO_PPTO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R39" edge="1" parent="1" source="C_ESPECIALIDAD" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_TRABAJADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R40" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_TRABAJADOR" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R41" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_CONTRATO_LABORAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R42" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_CONTRATO_LABORAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R43" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_DOCUMENTO_LEGAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R44" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_DOCUMENTO_LEGAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R45" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_CERTIFICADO_LABORAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R46" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_CERTIFICADO_LABORAL" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R47" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_LIQUIDACION_SUELDO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R48" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_ENTREGA_EPP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R49" edge="1" parent="1" source="C_MATERIAL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_ENTREGA_EPP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R50" edge="1" parent="1" source="C_USUARIO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#38761D;strokeWidth=1.3;jettySize=auto;" target="C_ENTREGA_EPP" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R51" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_INCIDENTE_SSO" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R52" edge="1" parent="1" source="C_INCIDENTE_SSO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ACCIDENTE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R53" edge="1" parent="1" source="C_TRABAJADOR" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ACCIDENTE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R54" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;endFill=0;startArrow=ERone;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;jettySize=auto;" target="C_ACCIDENTE" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AS0" edge="1" parent="1" source="C_PROYECTO" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=ERmany;endFill=0;startArrow=ERmany;startFill=0;strokeColor=#1F3864;strokeWidth=1.3;dashed=1;fontSize=10;fontColor=#1F3864;labelBackgroundColor=#ffffff;" target="C_PROVEEDOR" value="subcontratistas (CU 15)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C_USUARIO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="USUARIO" vertex="1">
+          <mxGeometry height="144" width="288" x="40" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_USUARIO" parent="C_USUARIO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK usuario_rut: VARCHAR(20)&lt;br&gt;— usuario_nombre: VARCHAR(100)&lt;br&gt;— usuario_correo_institucional: VARCHAR(150)&lt;br&gt;— usuario_password_hash: VARCHAR(255)" vertex="1">
+          <mxGeometry height="74" width="288" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_USUARIO" parent="C_USUARIO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ login(): boolean&lt;br&gt;+ logout(): void" vertex="1">
+          <mxGeometry height="44" width="288" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ADMINISTRADOR" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ADMINISTRADOR" vertex="1">
+          <mxGeometry height="129" width="276" x="398" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ADMINISTRADOR" parent="C_ADMINISTRADOR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK administrador_id: INT&lt;br&gt;— administrador_nivel_acceso: VARCHAR(50)&lt;br&gt;— administrador_fecha_asignacion: DATETIME&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="74" width="276" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ADMINISTRADOR" parent="C_ADMINISTRADOR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ modificar(): void" vertex="1">
+          <mxGeometry height="29" width="276" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SUPERVISOR_TERRENO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="SUPERVISOR_TERRENO" vertex="1">
+          <mxGeometry height="144" width="368" x="745" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_SUPERVISOR_TERRENO" parent="C_SUPERVISOR_TERRENO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK supervisor_terreno_id: INT&lt;br&gt;— supervisor_terreno_registro_certificacion: VARCHAR(100)&lt;br&gt;— supervisor_terreno_telefono_emergencia: VARCHAR(20)&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="74" width="368" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_SUPERVISOR_TERRENO" parent="C_SUPERVISOR_TERRENO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ modificar(): void" vertex="1">
+          <mxGeometry height="44" width="368" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C_LOG_AUDITORIA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="LOG_AUDITORIA" vertex="1">
+          <mxGeometry height="144" width="240" x="1182" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_LOG_AUDITORIA" parent="C_LOG_AUDITORIA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK log_auditoria_id: INT&lt;br&gt;— log_auditoria_fecha_hora: DATETIME&lt;br&gt;— log_auditoria_accion: VARCHAR(255)&lt;br&gt;— log_auditoria_modulo: VARCHAR(100)&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="89" width="240" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_LOG_AUDITORIA" parent="C_LOG_AUDITORIA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void" vertex="1">
+          <mxGeometry height="29" width="240" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="C_PARAMETRO_SISTEMA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="PARAMETRO_SISTEMA" vertex="1">
+          <mxGeometry height="114" width="325" x="1492" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_PARAMETRO_SISTEMA" parent="C_PARAMETRO_SISTEMA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK parametro_sistema_clave_parametro: VARCHAR(100)&lt;br&gt;— parametro_sistema_valor_numerico: DECIMAL&lt;br&gt;— parametro_sistema_fecha_vigencia: DATE" vertex="1">
+          <mxGeometry height="59" width="325" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_PARAMETRO_SISTEMA" parent="C_PARAMETRO_SISTEMA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ obtenerValor(): decimal" vertex="1">
+          <mxGeometry height="29" width="325" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ESTADO_PROYECTO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ESTADO_PROYECTO" vertex="1">
+          <mxGeometry height="99" width="252" x="1887" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ESTADO_PROYECTO" parent="C_ESTADO_PROYECTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK estado_proyecto_id: INT&lt;br&gt;— estado_proyecto_nombre: VARCHAR(100)" vertex="1">
+          <mxGeometry height="44" width="252" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ESTADO_PROYECTO" parent="C_ESTADO_PROYECTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ listar(): List" vertex="1">
+          <mxGeometry height="29" width="252" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C_PROYECTO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="PROYECTO" vertex="1">
+          <mxGeometry height="324" width="313" x="2209" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_PROYECTO" parent="C_PROYECTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;— proyecto_nombre_obra: VARCHAR(255)&lt;br&gt;— proyecto_porcentaje_avance: DECIMAL&lt;br&gt;— proyecto_presupuesto_asignado: DECIMAL&lt;br&gt;— proyecto_correo_contacto: VARCHAR(150)&lt;br&gt;— proyecto_latitud: FLOAT&lt;br&gt;— proyecto_longitud: FLOAT&lt;br&gt;— proyecto_ubicacion: VARCHAR(255)&lt;br&gt;— proyecto_descripcion_tecnica: TEXT&lt;br&gt;— proyecto_fecha_inicio: DATE&lt;br&gt;— proyecto_fecha_termino: DATE&lt;br&gt;— proyecto_presupuesto_caja_chica: DECIMAL(15,2)&lt;br&gt;FK estado_proyecto_id: INT" vertex="1">
+          <mxGeometry height="209" width="313" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_PROYECTO" parent="C_PROYECTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ asociarSubcontratista(): void&lt;br&gt;+ actualizarPortafolio(): void&lt;br&gt;+ actualizarPresupuesto(): void&lt;br&gt;+ calcularDesviacionCostos(): decimal&lt;br&gt;+ generarCertificadoInstalacion(): File" vertex="1">
+          <mxGeometry height="89" width="313" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="C_HITO_TECNICO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="HITO_TECNICO" vertex="1">
+          <mxGeometry height="129" width="282" x="2592" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_HITO_TECNICO" parent="C_HITO_TECNICO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK hito_tecnico_id: INT&lt;br&gt;— hito_tecnico_nombre_hito: VARCHAR(255)&lt;br&gt;— hito_tecnico_avance_fisico: DECIMAL&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="74" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_HITO_TECNICO" parent="C_HITO_TECNICO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ listarPorProyecto(): List" vertex="1">
+          <mxGeometry height="29" width="282" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C_EVIDENCIA_FOTOGRAFICA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="EVIDENCIA_FOTOGRAFICA" vertex="1">
+          <mxGeometry height="204" width="349" x="2944" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EVIDENCIA_FOTOGRAFICA" parent="C_EVIDENCIA_FOTOGRAFICA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK evidencia_fotografica_nro: INT&lt;br&gt;— evidencia_fotografica_url_foto: TEXT&lt;br&gt;— evidencia_fotografica_fecha_captura: DATETIME&lt;br&gt;— evidencia_fotografica_latitud: FLOAT&lt;br&gt;— evidencia_fotografica_longitud: FLOAT&lt;br&gt;— evidencia_fotografica_estado_aprobacion: VARCHAR(50)&lt;br&gt;FK hito_tecnico_id: INT" vertex="1">
+          <mxGeometry height="119" width="349" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_EVIDENCIA_FOTOGRAFICA" parent="C_EVIDENCIA_FOTOGRAFICA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ cargar(): void&lt;br&gt;+ aprobar(): void&lt;br&gt;+ rechazar(): void" vertex="1">
+          <mxGeometry height="59" width="349" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="C_BITACORA_DIARIA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="BITACORA_DIARIA" vertex="1">
+          <mxGeometry height="159" width="294" x="40" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_BITACORA_DIARIA" parent="C_BITACORA_DIARIA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK bitacora_diaria_id: INT&lt;br&gt;— bitacora_diaria_fecha: DATE&lt;br&gt;— bitacora_diaria_descripcion_actividad: TEXT&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="89" width="294" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_BITACORA_DIARIA" parent="C_BITACORA_DIARIA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ validar(): void" vertex="1">
+          <mxGeometry height="44" width="294" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="C_BITACORA_COMUNICACION" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="BITACORA_COMUNICACION" vertex="1">
+          <mxGeometry height="204" width="282" x="404" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_BITACORA_COMUNICACION" parent="C_BITACORA_COMUNICACION" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK bitacora_comunicacion_id: INT&lt;br&gt;— bitacora_comunicacion_fecha: DATE&lt;br&gt;— bitacora_comunicacion_tipo: VARCHAR(100)&lt;br&gt;— bitacora_comunicacion_descripcion: TEXT&lt;br&gt;— bitacora_comunicacion_participantes: TEXT&lt;br&gt;— bitacora_comunicacion_url_adjunto: TEXT&lt;br&gt;FK usuario_rut: VARCHAR(20)&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="134" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_BITACORA_COMUNICACION" parent="C_BITACORA_COMUNICACION" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ listarPorProyecto(): List" vertex="1">
+          <mxGeometry height="44" width="282" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_EQUIPO_HVAC" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="EQUIPO_HVAC" vertex="1">
+          <mxGeometry height="144" width="282" x="757" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EQUIPO_HVAC" parent="C_EQUIPO_HVAC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK equipo_hvac_numero_serie: VARCHAR(100)&lt;br&gt;— equipo_hvac_fecha_instalacion: DATE&lt;br&gt;— equipo_hvac_estado_operativo: VARCHAR(50)&lt;br&gt;FK modelo_hvac_id: INT&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="89" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_EQUIPO_HVAC" parent="C_EQUIPO_HVAC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ listarPorProyecto(): List" vertex="1">
+          <mxGeometry height="29" width="282" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MODELO_HVAC" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="MODELO_HVAC" vertex="1">
+          <mxGeometry height="129" width="230" x="1109" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_MODELO_HVAC" parent="C_MODELO_HVAC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK modelo_hvac_id: INT&lt;br&gt;— modelo_hvac_nombre: VARCHAR(255)&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;— modelo_hvac_url_ficha: TEXT&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;— modelo_hvac_url_manual: TEXT&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="74" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_MODELO_HVAC" parent="C_MODELO_HVAC" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ listar(): List" vertex="1">
+          <mxGeometry height="29" width="230" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DOCUMENTO_EQUIPO" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="DOCUMENTO_EQUIPO" vertex="1">
+          <mxGeometry height="174" width="270" x="1409" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DOCUMENTO_EQUIPO" parent="C_DOCUMENTO_EQUIPO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK documento_equipo_id: INT&lt;br&gt;— documento_equipo_formato: VARCHAR(10)&lt;br&gt;— documento_equipo_etiqueta: VARCHAR(150)&lt;br&gt;— documento_equipo_url: TEXT&lt;br&gt;— documento_equipo_fecha: DATETIME&lt;br&gt;FK modelo_hvac_id: INT" vertex="1">
+          <mxGeometry height="104" width="270" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_DOCUMENTO_EQUIPO" parent="C_DOCUMENTO_EQUIPO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ cargar(): void&lt;br&gt;+ previsualizar(): File" vertex="1">
+          <mxGeometry height="44" width="270" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C_PROVEEDOR" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="PROVEEDOR" vertex="1">
+          <mxGeometry height="129" width="252" x="1749" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_PROVEEDOR" parent="C_PROVEEDOR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK proveedor_rut: VARCHAR(20)&lt;br&gt;— proveedor_razon_social: VARCHAR(255)&lt;br&gt;— proveedor_correo: VARCHAR(150)&lt;br&gt;— proveedor_telefono: VARCHAR(20)" vertex="1">
+          <mxGeometry height="74" width="252" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_PROVEEDOR" parent="C_PROVEEDOR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ buscar(): Proveedor" vertex="1">
+          <mxGeometry height="29" width="252" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="C_MATERIAL" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="MATERIAL" vertex="1">
+          <mxGeometry height="234" width="246" x="2071" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_MATERIAL" parent="C_MATERIAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK material_id: INT&lt;br&gt;— material_nombre: VARCHAR(255)&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;— material_sku: VARCHAR(100)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;— material_descripcion: TEXT&lt;/b&gt;&lt;/font&gt;&lt;br&gt;— material_unidad_medida: VARCHAR(50)&lt;br&gt;— material_stock_actual: DECIMAL&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;— material_activo: BOOLEAN&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;— material_categoria: VARCHAR(100)&lt;/b&gt;&lt;/font&gt;&lt;br&gt;FK proveedor_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="149" width="246" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_MATERIAL" parent="C_MATERIAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ actualizarStock(): void&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ registrarEnCatalogo(): void&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ desactivar(): void&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="59" width="246" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="C_SOLICITUD_MATERIAL" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="SOLICITUD_MATERIAL" vertex="1">
+          <mxGeometry height="219" width="282" x="2387" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_SOLICITUD_MATERIAL" parent="C_SOLICITUD_MATERIAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK solicitud_material_id: INT&lt;br&gt;— solicitud_material_fecha: DATE&lt;br&gt;— solicitud_material_cantidad: INT&lt;br&gt;— solicitud_material_estado: VARCHAR(50)&lt;br&gt;— solicitud_material_descripcion: TEXT&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;FK usuario_rut: VARCHAR(20)&lt;br&gt;FK material_id: INT" vertex="1">
+          <mxGeometry height="134" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_SOLICITUD_MATERIAL" parent="C_SOLICITUD_MATERIAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ aprobar(): void&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ generar(): void&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ validar(): boolean&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="59" width="282" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ORDEN_COMPRA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ORDEN_COMPRA" vertex="1">
+          <mxGeometry height="204" width="282" x="2739" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ORDEN_COMPRA" parent="C_ORDEN_COMPRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK orden_compra_id: INT&lt;br&gt;— orden_compra_folio: VARCHAR(50)&lt;br&gt;— orden_compra_fecha: DATE&lt;br&gt;— orden_compra_estado: VARCHAR(50)&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;FK solicitud_material_id: INT&lt;br&gt;FK proveedor_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="119" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ORDEN_COMPRA" parent="C_ORDEN_COMPRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ generar(): void&lt;br&gt;+ calcularTotal(): decimal&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ consultarHistorial(): List&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="59" width="282" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DETALLE_ORDEN_COMPRA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="DETALLE_ORDEN_COMPRA" vertex="1">
+          <mxGeometry height="174" width="368" x="40" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DETALLE_ORDEN_COMPRA" parent="C_DETALLE_ORDEN_COMPRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK detalle_orden_compra_id: INT&lt;br&gt;— detalle_orden_compra_cantidad: INT&lt;br&gt;— detalle_orden_compra_precio_unitario: DECIMAL&lt;br&gt;— detalle_orden_compra_descripcion_material: VARCHAR(255)&lt;br&gt;FK orden_compra_id: INT&lt;br&gt;FK material_id: INT" vertex="1">
+          <mxGeometry height="104" width="368" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_DETALLE_ORDEN_COMPRA" parent="C_DETALLE_ORDEN_COMPRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ agregar(): void&lt;br&gt;+ calcularSubtotal(): decimal" vertex="1">
+          <mxGeometry height="44" width="368" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C_FACTURA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="FACTURA" vertex="1">
+          <mxGeometry height="174" width="230" x="478" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_FACTURA" parent="C_FACTURA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK factura_id: INT&lt;br&gt;— factura_folio: VARCHAR(50)&lt;br&gt;— factura_fecha: DATE&lt;br&gt;— factura_monto_total: DECIMAL&lt;br&gt;— factura_url_pdf: TEXT&lt;br&gt;FK orden_compra_id: INT" vertex="1">
+          <mxGeometry height="104" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_FACTURA" parent="C_FACTURA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ vincular(): void&lt;br&gt;+ validarMonto(): boolean" vertex="1">
+          <mxGeometry height="44" width="230" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="C_GUIA_DESPACHO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="GUIA_DESPACHO" vertex="1">
+          <mxGeometry height="279" width="294" x="778" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_GUIA_DESPACHO" parent="C_GUIA_DESPACHO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK guia_despacho_id: INT&lt;br&gt;— guia_despacho_numero: VARCHAR(50)&lt;br&gt;— guia_despacho_fecha: DATE&lt;br&gt;— guia_despacho_estado: VARCHAR(50)&lt;br&gt;— guia_despacho_cantidad_recibida: INT&lt;br&gt;— guia_despacho_ubicacion_verificada: BOOLEAN&lt;br&gt;— guia_despacho_latitud_recepcion: FLOAT&lt;br&gt;— guia_despacho_longitud_recepcion: FLOAT&lt;br&gt;FK proveedor_rut: VARCHAR(20)&lt;br&gt;FK orden_compra_id: INT&lt;br&gt;FK material_id: INT" vertex="1">
+          <mxGeometry height="179" width="294" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_GUIA_DESPACHO" parent="C_GUIA_DESPACHO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ confirmarRecepcion(): void&lt;br&gt;+ validarUbicacion(): boolean&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ registrarIngreso(): void&lt;/b&gt;&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ marcarEnTransito(): void&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="74" width="294" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="C_CERTIFICADO_CALIDAD" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="CERTIFICADO_CALIDAD" vertex="1">
+          <mxGeometry height="204" width="276" x="1142" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_CERTIFICADO_CALIDAD" parent="C_CERTIFICADO_CALIDAD" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK certificado_calidad_id: INT&lt;br&gt;— certificado_calidad_numero: VARCHAR(100)&lt;br&gt;— certificado_calidad_fecha_emision: DATE&lt;br&gt;— certificado_calidad_fecha_carga: DATE&lt;br&gt;— certificado_calidad_url: TEXT&lt;br&gt;FK material_id: INT&lt;br&gt;FK usuario_rut: VARCHAR(20)&lt;br&gt;FK guia_despacho_id: INT" vertex="1">
+          <mxGeometry height="134" width="276" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_CERTIFICADO_CALIDAD" parent="C_CERTIFICADO_CALIDAD" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ cargar(): void&lt;br&gt;+ vincularGuia(): void" vertex="1">
+          <mxGeometry height="44" width="276" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DEVOLUCION_OBRA" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="DEVOLUCION_OBRA" vertex="1">
+          <mxGeometry height="264" width="288" x="1488" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DEVOLUCION_OBRA" parent="C_DEVOLUCION_OBRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK devolucion_obra_id: INT&lt;br&gt;— devolucion_obra_fase: VARCHAR(150)&lt;br&gt;— devolucion_obra_cantidad: INT&lt;br&gt;— devolucion_obra_estado_fisico: VARCHAR(50)&lt;br&gt;— devolucion_obra_observacion: TEXT&lt;br&gt;— devolucion_obra_vale: VARCHAR(50)&lt;br&gt;— devolucion_obra_fecha: DATE&lt;br&gt;— devolucion_obra_monto_rebajado: DECIMAL&lt;br&gt;— devolucion_obra_precio_unitario: DECIMAL&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;FK material_id: INT&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="194" width="288" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_DEVOLUCION_OBRA" parent="C_DEVOLUCION_OBRA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ registrarReingreso(): void&lt;br&gt;+ validarEstadoFisico(): boolean" vertex="1">
+          <mxGeometry height="44" width="288" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="C_HERRAMIENTA" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="HERRAMIENTA" vertex="1">
+          <mxGeometry height="159" width="230" x="1847" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_HERRAMIENTA" parent="C_HERRAMIENTA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK herramienta_id: INT&lt;br&gt;— herramienta_codigo: VARCHAR(50)&lt;br&gt;— herramienta_nombre: VARCHAR(150)&lt;br&gt;— herramienta_estado: VARCHAR(30)&lt;br&gt;FK trabajador_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="89" width="230" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_HERRAMIENTA" parent="C_HERRAMIENTA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ cambiarEstado(): void&lt;br&gt;+ consultarTrazabilidad(): List" vertex="1">
+          <mxGeometry height="44" width="230" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ASIGNACION_HERRAMIENTA" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ASIGNACION_HERRAMIENTA" vertex="1">
+          <mxGeometry height="204" width="362" x="2147" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ASIGNACION_HERRAMIENTA" parent="C_ASIGNACION_HERRAMIENTA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK asignacion_herramienta_id: INT&lt;br&gt;— asignacion_herramienta_fecha_entrega: DATE&lt;br&gt;— asignacion_herramienta_fecha_devolucion: DATE&lt;br&gt;— asignacion_herramienta_estado_entrega: VARCHAR(120)&lt;br&gt;— asignacion_herramienta_estado_devolucion: VARCHAR(120)&lt;br&gt;FK herramienta_id: INT&lt;br&gt;FK trabajador_rut: VARCHAR(20)&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="134" width="362" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ASIGNACION_HERRAMIENTA" parent="C_ASIGNACION_HERRAMIENTA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ registrarEntrega(): void&lt;br&gt;+ registrarDevolucion(): void" vertex="1">
+          <mxGeometry height="44" width="362" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_EGRESO_CAJA_CHICA" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="EGRESO_CAJA_CHICA" vertex="1">
+          <mxGeometry height="159" width="282" x="2578" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_EGRESO_CAJA_CHICA" parent="C_EGRESO_CAJA_CHICA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK egreso_caja_chica_id: INT&lt;br&gt;— egreso_caja_chica_monto: DECIMAL&lt;br&gt;— egreso_caja_chica_concepto: TEXT&lt;br&gt;— egreso_caja_chica_fecha: DATE&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="89" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_EGRESO_CAJA_CHICA" parent="C_EGRESO_CAJA_CHICA" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ verificarSaldo(): boolean" vertex="1">
+          <mxGeometry height="44" width="282" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="C_CONTROL_CAMBIO_PPTO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="CONTROL_CAMBIO_PPTO" vertex="1">
+          <mxGeometry height="189" width="294" x="2931" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="A_CONTROL_CAMBIO_PPTO" parent="C_CONTROL_CAMBIO_PPTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK control_cambio_ppto_id: INT&lt;br&gt;— control_cambio_ppto_fecha: DATE&lt;br&gt;— control_cambio_ppto_motivo: TEXT&lt;br&gt;— control_cambio_ppto_monto_anterior: DECIMAL&lt;br&gt;— control_cambio_ppto_monto_nuevo: DECIMAL&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="119" width="294" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_CONTROL_CAMBIO_PPTO" parent="C_CONTROL_CAMBIO_PPTO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ calcularVariacion(): decimal" vertex="1">
+          <mxGeometry height="44" width="294" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="C_TRABAJADOR" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="TRABAJADOR" vertex="1">
+          <mxGeometry height="219" width="282" x="40" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_TRABAJADOR" parent="C_TRABAJADOR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK trabajador_rut: VARCHAR(20)&lt;br&gt;— trabajador_telefono: VARCHAR(20)&lt;br&gt;— trabajador_nombres: VARCHAR(150)&lt;br&gt;— trabajador_apellidos: VARCHAR(150)&lt;br&gt;— trabajador_activo: BOOLEAN&lt;br&gt;— trabajador_correo: VARCHAR(150)&lt;br&gt;FK especialidad_id: INT&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="134" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_TRABAJADOR" parent="C_TRABAJADOR" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ obtenerPorRUT(): Trabajador&lt;br&gt;+ validarAsignacionObra(): boolean&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ gestionarExpediente(): void&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="59" width="282" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ESPECIALIDAD" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ESPECIALIDAD" vertex="1">
+          <mxGeometry height="99" width="234" x="392" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ESPECIALIDAD" parent="C_ESPECIALIDAD" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK especialidad_id: INT&lt;br&gt;— especialidad_nombre: VARCHAR(100)" vertex="1">
+          <mxGeometry height="44" width="234" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ESPECIALIDAD" parent="C_ESPECIALIDAD" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ listar(): List" vertex="1">
+          <mxGeometry height="29" width="234" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C_CONTRATO_LABORAL" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="CONTRATO_LABORAL" vertex="1">
+          <mxGeometry height="189" width="282" x="696" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_CONTRATO_LABORAL" parent="C_CONTRATO_LABORAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK contrato_laboral_id_contrato: INT&lt;br&gt;— contrato_laboral_fecha_inicio: DATE&lt;br&gt;— contrato_laboral_fecha_termino: DATE&lt;br&gt;— contrato_laboral_sueldo_base: DECIMAL&lt;br&gt;— contrato_laboral_leyes_sociales: DECIMAL&lt;br&gt;FK trabajador_rut: VARCHAR(20)&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="119" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_CONTRATO_LABORAL" parent="C_CONTRATO_LABORAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ calcularCostoMensual(): decimal&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ generarAnexoTraslado(): File&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="44" width="282" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="C_DOCUMENTO_LEGAL" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="DOCUMENTO_LEGAL" vertex="1">
+          <mxGeometry height="249" width="282" x="1048" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_DOCUMENTO_LEGAL" parent="C_DOCUMENTO_LEGAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK documento_legal_id: INT&lt;br&gt;— documento_legal_tipo: VARCHAR(100)&lt;br&gt;— documento_legal_url_pdf: TEXT&lt;br&gt;— documento_legal_fecha_vencimiento: DATE&lt;br&gt;— documento_legal_estado: VARCHAR(50)&lt;br&gt;— documento_legal_fecha_emision: DATE&lt;br&gt;FK trabajador_rut: VARCHAR(20)&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="134" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_DOCUMENTO_LEGAL" parent="C_DOCUMENTO_LEGAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ buscarPorRUT(): List&lt;br&gt;+ buscarPorObra(): List&lt;br&gt;+ registrarPoliza(): void&lt;br&gt;+ previsualizar(): File&lt;br&gt;&lt;font color=&quot;#38761D&quot;&gt;&lt;b&gt;+ registrarExamenMedico(): void&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="89" width="282" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_CERTIFICADO_LABORAL" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="CERTIFICADO_LABORAL" vertex="1">
+          <mxGeometry height="189" width="282" x="1400" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_CERTIFICADO_LABORAL" parent="C_CERTIFICADO_LABORAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK certificado_laboral_id: INT&lt;br&gt;— certificado_laboral_periodo: VARCHAR(7)&lt;br&gt;— certificado_laboral_url_f30: TEXT&lt;br&gt;— certificado_laboral_url_f30_1: TEXT&lt;br&gt;— certificado_laboral_fecha_carga: DATE&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)&lt;br&gt;FK trabajador_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="119" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_CERTIFICADO_LABORAL" parent="C_CERTIFICADO_LABORAL" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ cargar(): void&lt;br&gt;+ emitirCertificado(): File" vertex="1">
+          <mxGeometry height="44" width="282" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="C_LIQUIDACION_SUELDO" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="LIQUIDACION_SUELDO" vertex="1">
+          <mxGeometry height="159" width="264" x="1753" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_LIQUIDACION_SUELDO" parent="C_LIQUIDACION_SUELDO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK liquidacion_sueldo_id: INT&lt;br&gt;— liquidacion_sueldo_periodo: VARCHAR(7)&lt;br&gt;— liquidacion_sueldo_url_pdf: TEXT&lt;br&gt;— liquidacion_sueldo_fecha_carga: DATE&lt;br&gt;FK trabajador_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="89" width="264" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_LIQUIDACION_SUELDO" parent="C_LIQUIDACION_SUELDO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ cargar(): void&lt;br&gt;+ consultarPorPeriodo(): List" vertex="1">
+          <mxGeometry height="44" width="264" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ENTREGA_EPP" parent="1" style="swimlane;startSize=26;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ENTREGA_EPP" vertex="1">
+          <mxGeometry height="264" width="294" x="2087" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ENTREGA_EPP" parent="C_ENTREGA_EPP" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="PK entrega_epp_id: INT&lt;br&gt;— entrega_epp_cantidad: INT&lt;br&gt;— entrega_epp_firma: LONGTEXT&lt;br&gt;— entrega_epp_fecha_hora_validacion: DATETIME&lt;br&gt;— entrega_epp_estado: VARCHAR(50)&lt;br&gt;— entrega_epp_lote: VARCHAR(50)&lt;br&gt;— entrega_epp_url_comprobante: TEXT&lt;br&gt;— entrega_epp_fecha_entrega: DATE&lt;br&gt;FK trabajador_rut: VARCHAR(20)&lt;br&gt;FK material_id: INT&lt;br&gt;FK usuario_rut: VARCHAR(20)" vertex="1">
+          <mxGeometry height="179" width="294" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ENTREGA_EPP" parent="C_ENTREGA_EPP" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#E2EFDA;strokeColor=#1E4510;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ firmar(): void&lt;br&gt;+ generarComprobante(): File" vertex="1">
+          <mxGeometry height="59" width="294" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="C_INCIDENTE_SSO" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="INCIDENTE_SSO" vertex="1">
+          <mxGeometry height="204" width="282" x="2451" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_INCIDENTE_SSO" parent="C_INCIDENTE_SSO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK incidente_sso_id: INT&lt;br&gt;— incidente_sso_descripcion: TEXT&lt;br&gt;— incidente_sso_fecha_hora: DATETIME&lt;br&gt;— incidente_sso_gravedad: VARCHAR(50)&lt;br&gt;— incidente_sso_tipo: VARCHAR(50)&lt;br&gt;— incidente_sso_lugar: VARCHAR(255)&lt;br&gt;— incidente_sso_url_fotos: TEXT&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="134" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_INCIDENTE_SSO" parent="C_INCIDENTE_SSO" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void&lt;br&gt;+ generarFolio(): string" vertex="1">
+          <mxGeometry height="44" width="282" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C_ACCIDENTE" parent="1" style="swimlane;startSize=26;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontStyle=1;fontSize=11;whiteSpace=wrap;html=1;" value="ACCIDENTE" vertex="1">
+          <mxGeometry height="159" width="282" x="2804" y="1147" as="geometry" />
+        </mxCell>
+        <mxCell id="A_ACCIDENTE" parent="C_ACCIDENTE" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="PK accidente_id: INT&lt;br&gt;— accidente_dias_perdidos: INT&lt;br&gt;— accidente_riesgo_potencial: TEXT&lt;br&gt;FK incidente_sso_id: INT&lt;br&gt;FK trabajador_rut: VARCHAR(20)&lt;br&gt;FK proyecto_codigo_correlativo: VARCHAR(50)" vertex="1">
+          <mxGeometry height="104" width="282" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="M_ACCIDENTE" parent="C_ACCIDENTE" style="text;html=1;align=left;verticalAlign=top;spacingLeft=5;spacingTop=3;fontSize=10;fillColor=#DCE6F2;strokeColor=#0F1F3D;whiteSpace=wrap;overflow=hidden;" value="+ registrar(): void" vertex="1">
+          <mxGeometry height="29" width="282" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LEG1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1F3864;strokeColor=#0F1F3D;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Incremento 1" vertex="1">
+          <mxGeometry height="30" width="180" x="40" y="1471" as="geometry" />
+        </mxCell>
+        <mxCell id="LEG2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#38761D;strokeColor=#1E4510;fontColor=#ffffff;fontSize=11;fontStyle=1;" value="Incremento 2" vertex="1">
+          <mxGeometry height="30" width="180" x="240" y="1471" as="geometry" />
+        </mxCell>
+        <mxCell id="LEGT" parent="1" style="text;html=1;align=left;fontSize=10;" value="Las clases se colorean según el incremento en que se crearon; los atributos, métodos y relaciones agregados en un incremento posterior se destacan con el color de ese incremento." vertex="1">
+          <mxGeometry height="22" width="1100" x="40" y="1509" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

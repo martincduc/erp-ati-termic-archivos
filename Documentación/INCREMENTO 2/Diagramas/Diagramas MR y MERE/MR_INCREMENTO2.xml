@@ -1,7 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="wHXKU2JcEylAYW872clF">
-    <mxGraphModel dx="3770" dy="3180" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="0" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -181,10 +180,10 @@
           <mxGeometry height="110" width="253" y="50" as="geometry" />
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-30" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;PROYECTO&lt;/span&gt;" vertex="1">
-          <mxGeometry height="270" width="280" x="-170" y="1140" as="geometry" />
+          <mxGeometry height="270" width="308" x="-283" y="1137" as="geometry" />
         </mxCell>
-        <mxCell id="LP5Tlq-M-WUNg27Gzq21-31" parent="LP5Tlq-M-WUNg27Gzq21-30" style="align=left;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK proyecto_codigo_correlativo(VARCHAR(50))&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_nombre_obra(VARCHAR(255))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_porcentaje_avance(DECIMAL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_presupuesto_asignado(DECIMAL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_correo_contacto(VARCHAR(150))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_latitud(FLOAT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_longitud(FLOAT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_ubicacion(VARCHAR(255))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_descripcion_tecnica(TEXT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;proyecto_fecha_inicio(DATE)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_fecha_termino(DATE)&lt;/div&gt;&lt;div&gt;FK estado_proyecto_id(INT)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="220" width="280" y="50" as="geometry" />
+        <mxCell id="LP5Tlq-M-WUNg27Gzq21-31" parent="LP5Tlq-M-WUNg27Gzq21-30" style="align=left;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK proyecto_codigo_correlativo(VARCHAR(50))&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_nombre_obra(VARCHAR(255))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_porcentaje_avance(DECIMAL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_presupuesto_asignado(DECIMAL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_correo_contacto(VARCHAR(150))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;proyecto_latitud(FLOAT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_longitud(FLOAT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_ubicacion(VARCHAR(255))&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_descripcion_tecnica(TEXT)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;proyecto_fecha_inicio(DATE)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; proyecto_fecha_termino(DATE)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 128, 0), rgb(255, 255, 255));&quot;&gt;proyecto_presupuesto_caja_chica(DECIMAL(15,2)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;FK estado_proyecto_id(INT)&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 128, 0), rgb(255, 128, 0));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="220" width="308" y="50" as="geometry" />
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-32" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;MATERIAL&lt;/span&gt;" vertex="1">
           <mxGeometry height="195" width="308" x="340" y="1290" as="geometry" />
@@ -337,10 +336,10 @@
           <mxGeometry height="125" width="308" y="50" as="geometry" />
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-76" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=none;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;EGRESO_CAJA_CHICA&lt;/span&gt;" vertex="1">
-          <mxGeometry height="140" width="308" x="1478" y="609" as="geometry" />
+          <mxGeometry height="150" width="308" x="1478" y="609" as="geometry" />
         </mxCell>
-        <mxCell id="LP5Tlq-M-WUNg27Gzq21-77" parent="LP5Tlq-M-WUNg27Gzq21-76" style="align=left;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK egreso_caja_chica_id(INT)&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;egreso_caja_chica_monto(DECIMAL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;egreso_caja_chica_concepto(TEXT)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;egreso_caja_chica_fecha(DATE)&lt;br&gt;&lt;/div&gt;&lt;div&gt;FK proyecto_codigo_correlativo(VARCHAR(50))&lt;/div&gt;" vertex="1">
-          <mxGeometry height="90" width="308" y="50" as="geometry" />
+        <mxCell id="LP5Tlq-M-WUNg27Gzq21-77" parent="LP5Tlq-M-WUNg27Gzq21-76" style="align=left;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK egreso_caja_chica_id(INT)&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;egreso_caja_chica_monto(DECIMAL)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;egreso_caja_chica_concepto(TEXT)&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;egreso_caja_chica_fecha(DATE)&lt;br&gt;&lt;/div&gt;&lt;div&gt;FK proyecto_codigo_correlativo(VARCHAR(50))&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(196, 107, 0);&quot;&gt;FK usuario_rut(VARCHAR(20))&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="308" y="50" as="geometry" />
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-78" edge="1" parent="1" source="LP5Tlq-M-WUNg27Gzq21-31" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1.002;exitY=0.821;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=none;" target="LP5Tlq-M-WUNg27Gzq21-76" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
@@ -391,7 +390,7 @@
           <mxGeometry height="190" width="290" y="50" as="geometry" />
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-91" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;fillColor=none;" value="DOCUMENTO_EQUIPO" vertex="1">
-          <mxGeometry height="160" width="290" x="1950" y="280" as="geometry" />
+          <mxGeometry height="160" width="290" x="1950" y="268" as="geometry" />
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-92" parent="LP5Tlq-M-WUNg27Gzq21-91" style="align=left;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="PK&amp;nbsp; &amp;nbsp;documento_equipo_id(INT)&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;documento_equipo_formato(VARCHAR(10))&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;documento_equipo_etiqueta(VARCHAR(150))&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;documento_equipo_url(TEXT)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;documento_equipo_fecha(DATETIME)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;FK modelo_hvac_id(INT)&lt;/div&gt;" vertex="1">
           <mxGeometry height="110" width="290" y="50" as="geometry" />
@@ -575,6 +574,12 @@
         </mxCell>
         <mxCell id="LP5Tlq-M-WUNg27Gzq21-152" edge="1" parent="1" source="LP5Tlq-M-WUNg27Gzq21-21" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=none;" target="LP5Tlq-M-WUNg27Gzq21-39">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hKnKUMCXygIercxu48WB-1" edge="1" parent="1" source="LP5Tlq-M-WUNg27Gzq21-21" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0.998;exitY=0.12;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="LP5Tlq-M-WUNg27Gzq21-77" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="739" y="336" as="sourcePoint" />
+            <mxPoint x="839" y="236" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>

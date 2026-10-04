@@ -1,14 +1,14 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Página-1" id="CU24-corregido">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1165" pageHeight="880" math="0" shadow="0">
+    <mxGraphModel dx="1571" dy="826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1165" pageHeight="880" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tit" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;" value="CU24: Validando Recepción de EPP mediante Firma Digital" vertex="1">
+        <mxCell id="tit" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;" value="CU24: Validando Recepción mediante Firma Digital" vertex="1">
           <mxGeometry height="25" width="1065" x="50" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="h_a" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;fontStyle=1;" value="Supervisor" vertex="1">
-          <mxGeometry height="55" width="50" x="35" y="20" as="geometry" />
+        <mxCell id="h_a" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;align=center;verticalLabelPosition=bottom;verticalAlign=top;fontSize=10;fontStyle=1;" value="Administrador Total / Supervisor de Obra" vertex="1">
+          <mxGeometry height="55" width="55" x="32.5" y="20" as="geometry" />
         </mxCell>
         <mxCell id="h_v" parent="1" style="html=1;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="V_HistorialEpp" vertex="1">
           <mxGeometry height="50" width="130" x="145" y="90" as="geometry" />
@@ -26,7 +26,7 @@
           <mxGeometry height="50" width="130" x="905" y="90" as="geometry" />
         </mxCell>
         <mxCell id="ll_a" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
-          <mxGeometry height="725" width="10" x="55" y="105" as="geometry" />
+          <mxGeometry height="700" width="10" x="55" y="130" as="geometry" />
         </mxCell>
         <mxCell id="ll_v" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" vertex="1">
           <mxGeometry height="690" width="10" x="205" y="140" as="geometry" />

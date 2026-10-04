@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="t8VotF8XFyPpOEtV00GW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=15;fontStyle=1;" value="Diagrama de Despliegue – ERP ATI Termic SpA" vertex="1">
+          <mxGeometry height="30" width="950" x="100" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="device_cliente" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#xa;PC / Móvil (Android / iOS · Windows / macOS)" vertex="1">
+          <mxGeometry height="270" width="420" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="art_cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#xa;+ React_js(): void&#xa;+ HTML5(): void&#xa;+ CSS3(): void&#xa;+ JavaScript_ES6(): void&#xa;+ Axios(): void&#xa;+ ReactSignatureCanvas(): void&#xa;+ LeafletJS_GoogleMapsAPI(): void&#xa;+ WebGeolocationAPI(): void" vertex="1">
+          <mxGeometry height="165" width="230" x="90" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="req_cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#xa;Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="45" width="125" x="335" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="device_servidor" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#xa;SERVIDOR WEB&#xa;VPS / Cloud (AWS, DigitalOcean o similar) · Ubuntu Server (Linux)" vertex="1">
+          <mxGeometry height="270" width="570" x="540" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="art_servidor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#xa;+ Nginx(): void&#xa;+ Node_js(): void&#xa;+ Express_js(): void&#xa;+ JWT(): void&#xa;+ Bcrypt(): void&#xa;+ Multer(): void&#xa;+ Nodemailer(): void&#xa;+ PDFKit_jsPDF(): void&#xa;+ Sequelize(): void&#xa;+ HTTPS_TLS1_2(): void" vertex="1">
+          <mxGeometry height="195" width="230" x="565" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="req_servidor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#xa;Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="45" width="270" x="810" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="art_jwt_roles" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#xa;+ JWT_AdministradorTotal(): void&#xa;+ JWT_SupervisorDeObra(): void" vertex="1">
+          <mxGeometry height="135" width="270" x="810" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_cli_srv" edge="1" parent="1" source="device_cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endArrow=open;endFill=0;" target="device_servidor" value="JSON vía HTTPS / TLS 1.2+">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="device_externos" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#xa;Servicios Externos" vertex="1">
+          <mxGeometry height="200" width="340" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="art_externos" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#xa;+ GoogleMapsAPI(): void" vertex="1">
+          <mxGeometry height="65" width="280" x="90" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="req_externos" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#xa;Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="45" width="280" x="90" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="device_bd" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#xa;Base de Datos (MySQL)" vertex="1">
+          <mxGeometry height="200" width="650" x="460" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="art_mysql" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#xa;+ MySQL_RDBMS(): void" vertex="1">
+          <mxGeometry height="65" width="260" x="490" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="req_bd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#xa;Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="45" width="260" x="490" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_srv_bd" edge="1" parent="1" source="device_servidor" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endArrow=none;endFill=0;" target="device_bd" value="OP/local (SQL · Sequelize ORM)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_srv_ext" edge="1" parent="1" source="device_servidor" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endArrow=none;endFill=0;" target="device_externos" value="HTTPS / SMTP">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="825" y="380" />
+              <mxPoint x="230" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
