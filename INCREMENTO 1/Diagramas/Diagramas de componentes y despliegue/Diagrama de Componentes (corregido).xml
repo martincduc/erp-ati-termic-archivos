@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="g6MizNFv_uNJ99l5OuwC">
+    <mxGraphModel dx="2109" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;" value="Diagrama de componentes - ATI TERMIC SpA" vertex="1">
+          <mxGeometry height="40" width="600" x="500" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="frontend_bg" parent="1" style="swimlane;startSize=25;fontStyle=1;fontSize=12;" value="Capa de Presentación" vertex="1">
+          <mxGeometry height="230" width="1550" x="50" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lang_group" parent="frontend_bg" style="swimlane;startSize=20;fillColor=#ffffff;strokeColor=#666666;fontSize=10;" value="1. Lenguajes de Programación" vertex="1">
+          <mxGeometry height="170" width="185" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lang_html" parent="lang_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="HTML5 y CSS3&#10;(Estructura e interfaz de usuario)" vertex="1">
+          <mxGeometry height="50" width="155" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lang_js" parent="lang_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="JavaScript ES6+&#10;(Lenguaje unificado frontend/backend)" vertex="1">
+          <mxGeometry height="50" width="155" x="15" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="fw_group" parent="frontend_bg" style="swimlane;startSize=20;fillColor=#ffffff;strokeColor=#666666;fontSize=10;" value="2. Framework Frontend" vertex="1">
+          <mxGeometry height="170" width="390" x="225" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="fw_react" parent="fw_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="React.js&#10;(SPA - Single Page Application, responsiva y adaptable a móvil)" vertex="1">
+          <mxGeometry height="55" width="175" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lib_front_group" parent="frontend_bg" style="swimlane;startSize=20;fillColor=#ffffff;strokeColor=#666666;fontSize=10;" value="3. Librerías y APIs Frontend Clave" vertex="1">
+          <mxGeometry height="170" width="895" x="635" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lib_axios" parent="lib_front_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Axios&#10;(Peticiones HTTP a la API REST)" vertex="1">
+          <mxGeometry height="55" width="165" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lib_leaflet" parent="lib_front_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Leaflet.js + OpenStreetMap / Nominatim&#10;(Mapas interactivos, ubicación y geocodificación de obras)" vertex="1">
+          <mxGeometry height="55" width="165" x="365" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lib_geo" parent="lib_front_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Geolocation API nativa&#10;(GPS / validación del radio de la obra)" vertex="1">
+          <mxGeometry height="55" width="165" x="190" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="backend_bg" parent="1" style="swimlane;startSize=25;fillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=12;" value="Capa de Lógica de Negocio" vertex="1">
+          <mxGeometry height="230" width="1550" x="50" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="be_fw_group" parent="backend_bg" style="swimlane;startSize=20;fillColor=#ffffff;strokeColor=#666666;fontSize=10;" value="4. Entorno y Framework Backend" vertex="1">
+          <mxGeometry height="170" width="380" x="20" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="be_node" parent="be_fw_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Node.js&#10;(Entorno de ejecución del servidor)" vertex="1">
+          <mxGeometry height="60" width="165" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="be_express" parent="be_fw_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Express.js&#10;(Framework, enrutamiento, API REST y lógica de negocio)" vertex="1">
+          <mxGeometry height="60" width="165" x="195" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="lib_back_group" parent="backend_bg" style="swimlane;startSize=20;fillColor=#ffffff;strokeColor=#666666;fontSize=10;" value="5. Librerías Backend Clave" vertex="1">
+          <mxGeometry height="170" width="760" x="420" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="be_sequelize" parent="lib_back_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Sequelize&#10;(ORM, abstracción y consultas a la base de datos)" vertex="1">
+          <mxGeometry height="60" width="165" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="be_multer" parent="lib_back_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Multer&#10;(Middleware de carga de archivos PDF e imágenes)" vertex="1">
+          <mxGeometry height="60" width="165" x="195" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="be_nodemailer" parent="lib_back_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Nodemailer&#10;(Envío de correos por SMTP: token de recuperación y copia del acta de recepción)" vertex="1">
+          <mxGeometry height="60" width="175" x="375" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="be_pdf" parent="lib_back_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="PDFKit&#10;(Generación de PDF: certificados, comprobantes EPP, anexos y actas)" vertex="1">
+          <mxGeometry height="60" width="175" x="565" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_group" parent="backend_bg" style="swimlane;startSize=20;fillColor=#ffffff;strokeColor=#666666;fontSize=10;" value="6. Autenticación y Seguridad" vertex="1">
+          <mxGeometry height="170" width="330" x="1200" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_jwt" parent="auth_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="JSON Web Tokens JWT&#10;(Sesiones y roles: Administrador Total y Supervisor de Obra)" vertex="1">
+          <mxGeometry height="60" width="140" x="15" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_bcrypt" parent="auth_group" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Bcrypt&#10;(Hash de contraseñas y almacenamiento seguro)" vertex="1">
+          <mxGeometry height="60" width="140" x="170" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="db_bg" parent="1" style="swimlane;startSize=25;fillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=12;" value="Capa de Datos" vertex="1">
+          <mxGeometry height="160" width="500" x="50" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="HwTFvsmyPNZgTn6BHRG_-6" parent="db_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="MySQL RDBMS&#10;(Consistencia, integridad referencial y transaccional, 47 tablas)" vertex="1">
+          <mxGeometry height="55" width="230" x="135" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="infra_bg" parent="1" style="swimlane;startSize=25;fillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=12;" value="Capa de Infraestructura y Despliegue" vertex="1">
+          <mxGeometry height="160" width="1000" x="600" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="infra_nginx" parent="infra_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Nginx&#10;(Proxy inverso hacia la API Node.js)" vertex="1">
+          <mxGeometry height="50" width="210" x="20" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="infra_ubuntu" parent="infra_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Ubuntu Server Linux&#10;(Sistema operativo del servidor virtual)" vertex="1">
+          <mxGeometry height="50" width="210" x="250" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="infra_vps" parent="infra_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="VPS / Cloud&#10;(AWS, DigitalOcean o similar)" vertex="1">
+          <mxGeometry height="50" width="210" x="480" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="infra_https" parent="infra_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="HTTPS / TLS 1.2+&#10;(Transmisión cifrada)" vertex="1">
+          <mxGeometry height="50" width="210" x="710" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dev_bg" parent="1" style="swimlane;startSize=25;fillColor=#ffffff;strokeColor=#666666;fontStyle=1;fontSize=12;" value="Capa de Herramientas de Desarrollo" vertex="1">
+          <mxGeometry height="150" width="1550" x="50" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="dev_git" parent="dev_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Git + GitHub&#10;(Control de versiones distribuido y trabajo colaborativo)" vertex="1">
+          <mxGeometry height="70" width="340" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dev_postman" parent="dev_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Postman&#10;(Pruebas y validación de endpoints de la API REST)" vertex="1">
+          <mxGeometry height="70" width="340" x="380" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dev_vscode" parent="dev_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="Visual Studio Code&#10;(IDE y escritura del código fuente)" vertex="1">
+          <mxGeometry height="70" width="340" x="740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dev_npm" parent="dev_bg" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" value="npm&#10;(Gestor de paquetes Node.js y administración de dependencias)" vertex="1">
+          <mxGeometry height="70" width="340" x="1100" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_front_back" edge="1" parent="1" source="frontend_bg" style="edgeStyle=orthogonalEdgeStyle;" target="backend_bg" value="HTTP / JSON (Axios)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_back_db" edge="1" parent="1" source="backend_bg" style="edgeStyle=orthogonalEdgeStyle;exitX=0.1613;exitY=1;entryX=0.5;entryY=0;" target="db_bg" value="Sequelize ORM">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="edge_nginx_back" edge="1" parent="1" source="infra_nginx" style="edgeStyle=orthogonalEdgeStyle;dashed=1;exitX=0.5;exitY=0;entryX=0.4355;entryY=1;" target="backend_bg" value="Proxy Inverso">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      <mxCell id="fw_router" value="React Router&#10;(Navegación entre pantallas)" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="fw_group"><mxGeometry x="200" y="35" width="175" height="55" as="geometry" /></mxCell><mxCell id="fw_vite" value="Vite&#10;(Servidor de desarrollo y empaquetador del frontend)" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="fw_group"><mxGeometry x="200" y="100" width="175" height="55" as="geometry" /></mxCell><mxCell id="lib_recharts" value="Recharts&#10;(Gráficos de control de costos)" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="lib_front_group"><mxGeometry x="540" y="35" width="165" height="55" as="geometry" /></mxCell><mxCell id="lib_canvas" value="HTML5 Canvas&#10;(Firma digital en pantalla: EPP y acta de recepción)" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="lib_front_group"><mxGeometry x="715" y="35" width="165" height="55" as="geometry" /></mxCell><mxCell id="lib_media" value="MediaDevices API nativa&#10;(Cámara para evidencias y comprobantes)" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="lib_front_group"><mxGeometry x="540" y="100" width="165" height="55" as="geometry" /></mxCell><mxCell id="lib_lucide" value="Lucide React&#10;(Íconos de la interfaz)" style="shape=component;whiteSpace=wrap;html=1;fontSize=9;" vertex="1" parent="lib_front_group"><mxGeometry x="715" y="100" width="165" height="55" as="geometry" /></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

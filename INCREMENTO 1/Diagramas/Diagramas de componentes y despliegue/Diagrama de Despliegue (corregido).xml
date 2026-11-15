@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="t8VotF8XFyPpOEtV00GW">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=15;fontStyle=1;" value="Diagrama de Despliegue – ERP ATI Termic SpA" vertex="1">
+          <mxGeometry height="30" width="950" x="160" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="device_cliente" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#10;PC / Móvil (Android / iOS · Windows / macOS) · Navegador web" vertex="1">
+          <mxGeometry height="270" width="420" x="60" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="art_cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#10;+ React_js(): void&#10;+ React_Router(): void&#10;+ HTML5(): void&#10;+ CSS3(): void&#10;+ JavaScript_ES6(): void&#10;+ Axios(): void&#10;+ LeafletJS_OpenStreetMap(): void&#10;+ Recharts(): void&#10;+ HTML5_Canvas(): void&#10;+ WebGeolocationAPI(): void&#10;+ MediaDevicesAPI(): void&#10;+ Lucide_React(): void" vertex="1">
+          <mxGeometry height="195" width="215" x="90" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="req_cliente" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#10;Conectividad a Internet: boolean&#10;Navegador web moderno: boolean" vertex="1">
+          <mxGeometry height="75" width="155" x="315" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="device_servidor" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#10;SERVIDOR WEB&#10;VPS / Cloud (AWS, DigitalOcean o similar) · Ubuntu Server (Linux)" vertex="1">
+          <mxGeometry height="270" width="570" x="640" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="art_servidor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#10;+ Nginx(): void&#10;+ Node_js(): void&#10;+ Express_js(): void&#10;+ JWT(): void&#10;+ Bcrypt(): void&#10;+ Multer(): void&#10;+ Nodemailer(): void&#10;+ PDFKit(): void&#10;+ Sequelize(): void" vertex="1">
+          <mxGeometry height="195" width="230" x="665" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="req_servidor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#10;Conectividad a Internet: boolean&#10;Certificado HTTPS / TLS 1.2+: boolean" vertex="1">
+          <mxGeometry height="60" width="270" x="910" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="art_jwt_roles" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#10;+ JWT_AdministradorTotal(): void&#10;+ JWT_SupervisorDeObra(): void" vertex="1">
+          <mxGeometry height="120" width="270" x="910" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_cli_srv" edge="1" parent="1" source="device_cliente" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endFill=0;labelBackgroundColor=#ffffff;endArrow=open;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="device_servidor" value="JSON vía HTTPS / TLS 1.2+">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="device_externos" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#10;Servicios Externos" vertex="1">
+          <mxGeometry height="200" width="340" x="60" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="art_externos" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#10;+ OpenStreetMap_Tiles(): void&#10;+ Nominatim_Geocodificacion(): void&#10;+ Servidor_SMTP(): void" vertex="1">
+          <mxGeometry height="75" width="280" x="90" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="req_externos" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#10;Conectividad a Internet: boolean" vertex="1">
+          <mxGeometry height="45" width="280" x="90" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="device_bd" parent="1" style="shape=mxgraph.uml.component;align=center;verticalAlign=top;fontSize=11;fontStyle=1;fillColor=#ffffff;strokeColor=#000000;whiteSpace=wrap;" value="«device»&#10;Base de Datos (MySQL)" vertex="1">
+          <mxGeometry height="200" width="750" x="460" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="art_mysql" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;verticalAlign=top;" value="«artifact»&#10;+ MySQL_RDBMS(): void" vertex="1">
+          <mxGeometry height="65" width="260" x="490" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="req_bd" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;align=left;spacingLeft=8;dashed=1;" value="«Requirements»&#10;Conectividad LAN: boolean" vertex="1">
+          <mxGeometry height="45" width="260" x="490" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_srv_bd" edge="1" parent="1" source="device_servidor" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endFill=0;labelBackgroundColor=#ffffff;endArrow=none;exitX=0.6316;exitY=1;entryX=0.72;entryY=0;" target="device_bd" value="TCP/IP 3306 (SQL · Sequelize ORM)">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="arrow_srv_ext" edge="1" parent="1" source="device_servidor" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endFill=0;labelBackgroundColor=#ffffff;endArrow=open;exitX=0.2105;exitY=1;entryX=0.7059;entryY=0;" target="device_externos" value="HTTPS (Nominatim) / SMTP (Nodemailer)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="380" />
+              <mxPoint x="300" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      <mxCell id="arrow_cli_ext" value="HTTPS (mapas OpenStreetMap)" edge="1" parent="1" source="device_cliente" target="device_externos" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=10;strokeColor=#000000;endFill=0;labelBackgroundColor=#ffffff;endArrow=open;exitX=0.0952;exitY=1;entryX=0.1176;entryY=0;"><mxGeometry relative="1" as="geometry"><mxPoint x="80" y="0" as="offset" /></mxGeometry></mxCell></root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

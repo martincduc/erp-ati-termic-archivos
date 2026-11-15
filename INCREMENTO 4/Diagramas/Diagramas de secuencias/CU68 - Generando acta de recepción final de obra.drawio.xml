@@ -1,0 +1,1421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="IJP2B4Lr5kOwCEG66ePw">
+    <mxGraphModel dx="2384" dy="1088" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-178" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;fontSize=16;fontStyle=1;" value="CU 68: Generando acta de recepción final de obra" vertex="1">
+          <mxGeometry height="30" width="423" x="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-179" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=11;" value="Administrador Total / Supervisor de Obra" vertex="1">
+          <mxGeometry height="52" width="26" x="117" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-180" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;fontSize=12;" value="V_ActaRecepcion" vertex="1">
+          <mxGeometry height="40" width="140" x="641" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-181" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;fontSize=12;" value="C_ActaRecepcion" vertex="1">
+          <mxGeometry height="40" width="140" x="1139" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-182" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;fontSize=12;" value="C_MySQL" vertex="1">
+          <mxGeometry height="40" width="140" x="1572" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-183" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Proyecto" vertex="1">
+          <mxGeometry height="40" width="140" x="1828" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-184" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="EstadoProyecto" vertex="1">
+          <mxGeometry height="40" width="140" x="2028" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-185" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="ActaRecepcion" vertex="1">
+          <mxGeometry height="40" width="140" x="2228" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-186" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Usuario" vertex="1">
+          <mxGeometry height="40" width="140" x="2428" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-187" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="EquipoHVAC" vertex="1">
+          <mxGeometry height="40" width="140" x="2628" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-188" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="ModeloHvac" vertex="1">
+          <mxGeometry height="40" width="140" x="2828" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-189" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="GuiaDespacho" vertex="1">
+          <mxGeometry height="40" width="140" x="3028" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-190" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="OrdenCompra" vertex="1">
+          <mxGeometry height="40" width="140" x="3228" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-191" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="DevolucionObra" vertex="1">
+          <mxGeometry height="40" width="140" x="3428" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-192" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="Material" vertex="1">
+          <mxGeometry height="40" width="140" x="3628" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-193" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="ActaRecepcionMaterial" vertex="1">
+          <mxGeometry height="40" width="171" x="3818" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-194" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="PlantillaCorreo" vertex="1">
+          <mxGeometry height="40" width="140" x="4033" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-195" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;fontSize=12;" value="LogAuditoria" vertex="1">
+          <mxGeometry height="40" width="140" x="4233" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-196" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="160" as="sourcePoint" />
+            <mxPoint x="130" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-197" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="711" y="130" as="sourcePoint" />
+            <mxPoint x="711" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-198" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1209" y="130" as="sourcePoint" />
+            <mxPoint x="1209" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-199" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1642" y="130" as="sourcePoint" />
+            <mxPoint x="1642" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-200" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1898" y="130" as="sourcePoint" />
+            <mxPoint x="1898" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-201" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2098" y="130" as="sourcePoint" />
+            <mxPoint x="2098" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-202" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2298" y="130" as="sourcePoint" />
+            <mxPoint x="2298" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-203" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2498" y="130" as="sourcePoint" />
+            <mxPoint x="2498" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-204" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2698" y="130" as="sourcePoint" />
+            <mxPoint x="2698" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-205" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2898" y="130" as="sourcePoint" />
+            <mxPoint x="2898" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-206" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3098" y="130" as="sourcePoint" />
+            <mxPoint x="3098" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-207" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3298" y="130" as="sourcePoint" />
+            <mxPoint x="3298" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-208" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3498" y="130" as="sourcePoint" />
+            <mxPoint x="3498" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-209" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3698" y="130" as="sourcePoint" />
+            <mxPoint x="3698" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-210" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3903" y="130" as="sourcePoint" />
+            <mxPoint x="3903" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-211" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4103" y="130" as="sourcePoint" />
+            <mxPoint x="4103" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-212" edge="1" parent="1" style="endArrow=none;dashed=1;dashPattern=1 4;html=1;rounded=0;strokeColor=#000000;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4303" y="130" as="sourcePoint" />
+            <mxPoint x="4303" y="7308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-213" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1893" y="288" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-214" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2093" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-215" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-216" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-217" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="468" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-218" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="396" width="10" x="1204" y="216" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-219" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-220" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1893" y="792" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-221" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2493" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-222" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="252" width="10" x="1637" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-223" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="324" width="10" x="1204" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-224" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="906" width="10" x="706" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-225" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1893" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-226" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2093" y="1302" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-227" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="1194" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-228" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-229" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="1504" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-230" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2693" y="1762" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-231" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2893" y="1834" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-232" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="1726" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-233" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3093" y="1978" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-234" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3293" y="2050" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-235" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="1942" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-236" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3493" y="2194" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-237" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="2158" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-238" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3693" y="2338" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-239" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="2302" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-240" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3093" y="2560" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-241" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3293" y="2632" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-242" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="2524" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-243" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="1582" width="10" x="1204" y="1158" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-244" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="1654" width="10" x="706" y="1122" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-245" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="114" width="10" x="706" y="2890" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-246" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1893" y="3210" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-247" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2093" y="3282" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-248" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="3174" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-249" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="3426" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-250" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="3390" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-251" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2693" y="3680" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-252" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2893" y="3752" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-253" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="3644" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-254" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3093" y="3896" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-255" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3293" y="3968" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-256" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="3860" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-257" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3493" y="4112" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-258" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="4076" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-259" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3693" y="4256" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-260" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="4220" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-261" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2493" y="4400" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-262" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="4364" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-263" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="4544" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-264" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="4508" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-265" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="3898" y="4688" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-266" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="4652" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-267" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="4910" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-268" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="4874" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-269" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="4298" y="5132" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-270" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="5096" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-271" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="4098" y="5276" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-272" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="5240" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-273" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="2324" width="10" x="1204" y="3138" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-274" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="2536" width="10" x="706" y="3040" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-275" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="5720" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-276" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="1893" y="5792" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-277" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="1637" y="5684" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-278" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="4098" y="6014" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-279" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="5978" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-280" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="4298" y="6236" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-281" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="6200" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-282" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="696" width="10" x="1204" y="5648" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-283" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="768" width="10" x="706" y="5612" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-284" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="706" y="6416" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-285" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="6674" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-286" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="6638" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-287" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="2293" y="6896" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-288" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="6860" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-289" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;strokeColor=#82B366;" value="" vertex="1">
+          <mxGeometry height="36" width="10" x="4298" y="7040" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-290" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;strokeColor=#D79B00;" value="" vertex="1">
+          <mxGeometry height="108" width="10" x="1637" y="7004" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-291" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#F8CECC;strokeColor=#B85450;" value="" vertex="1">
+          <mxGeometry height="546" width="10" x="1204" y="6602" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-292" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#DAE8FC;strokeColor=#6C8EBF;" value="" vertex="1">
+          <mxGeometry height="774" width="10" x="706" y="6488" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-293" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="7102" width="10" x="125" y="174" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-1" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="1. Ingresa a Proyectos y Terreno y selecciona &quot;Acta de Recepción&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="180" as="sourcePoint" />
+            <mxPoint x="706" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-2" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="2. Solicitar obras habilitadas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="216" as="sourcePoint" />
+            <mxPoint x="1204" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-3" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="3. Consultar obras En Ejecución">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="252" as="sourcePoint" />
+            <mxPoint x="1637" y="252" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-4" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="4. Ejecutar consulta en Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="288" as="sourcePoint" />
+            <mxPoint x="1893" y="288" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-5" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="5. Resultado de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1893" y="324" as="sourcePoint" />
+            <mxPoint x="1647" y="324" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-6" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="6. Ejecutar consulta en EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="360" as="sourcePoint" />
+            <mxPoint x="2093" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-7" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="7. Resultado de EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2093" y="396" as="sourcePoint" />
+            <mxPoint x="1647" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-8" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="8. Respuesta de Proyecto y EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="432" as="sourcePoint" />
+            <mxPoint x="1214" y="432" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-9" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="9. Consultar obras con acta Firmada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="468" as="sourcePoint" />
+            <mxPoint x="1637" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-10" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="10. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="504" as="sourcePoint" />
+            <mxPoint x="2293" y="504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-11" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="11. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="540" as="sourcePoint" />
+            <mxPoint x="1647" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-12" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="12. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="576" as="sourcePoint" />
+            <mxPoint x="1214" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-13" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="13. Obras habilitadas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="612" as="sourcePoint" />
+            <mxPoint x="716" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-14" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="14. Solicitar actas emitidas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="648" as="sourcePoint" />
+            <mxPoint x="1204" y="648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-15" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="15. Consultar actas con su obra y emisor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="684" as="sourcePoint" />
+            <mxPoint x="1637" y="684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-16" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="16. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="720" as="sourcePoint" />
+            <mxPoint x="2293" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-17" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="17. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="756" as="sourcePoint" />
+            <mxPoint x="1647" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-18" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="18. Ejecutar consulta en Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="792" as="sourcePoint" />
+            <mxPoint x="1893" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-19" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="19. Resultado de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1893" y="828" as="sourcePoint" />
+            <mxPoint x="1647" y="828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-20" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="20. Ejecutar consulta en Usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="864" as="sourcePoint" />
+            <mxPoint x="2493" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-21" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="21. Resultado de Usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2493" y="900" as="sourcePoint" />
+            <mxPoint x="1647" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-22" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="22. Respuesta de ActaRecepcion y Proyecto y Usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="936" as="sourcePoint" />
+            <mxPoint x="1214" y="936" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-23" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="23. Historial de actas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="972" as="sourcePoint" />
+            <mxPoint x="716" y="972" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-24" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 1: obra con acta firmada&lt;/b&gt;&lt;br&gt;El sistema descarta las obras archivadas y las que ya tienen un acta Firmada,&lt;br&gt;por lo que no aparecen en el selector." vertex="1">
+          <mxGeometry height="62" width="468" x="1227" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-25" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="24. Mostrar obras habilitadas e historial de actas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="1086" as="sourcePoint" />
+            <mxPoint x="135" y="1086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-26" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="25. Selecciona la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1122" as="sourcePoint" />
+            <mxPoint x="706" y="1122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-27" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="26. Solicitar datos de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="1158" as="sourcePoint" />
+            <mxPoint x="1204" y="1158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-28" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="27. Buscar la obra con su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="1194" as="sourcePoint" />
+            <mxPoint x="1637" y="1194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-29" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="28. Ejecutar consulta en Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="1230" as="sourcePoint" />
+            <mxPoint x="1893" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-30" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="29. Resultado de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1893" y="1266" as="sourcePoint" />
+            <mxPoint x="1647" y="1266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-31" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="30. Ejecutar consulta en EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="1302" as="sourcePoint" />
+            <mxPoint x="2093" y="1302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-32" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="31. Resultado de EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2093" y="1338" as="sourcePoint" />
+            <mxPoint x="1647" y="1338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-33" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="32. Respuesta de Proyecto y EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="1374" as="sourcePoint" />
+            <mxPoint x="1214" y="1374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-34" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Obra no habilitada&lt;/b&gt;&lt;br&gt;Si la obra no existe responde &quot;La obra seleccionada no existe&quot;. Si está&lt;br&gt;archivada o no está En Ejecución responde &quot;Solo se puede generar el acta de&lt;br&gt;una obra En Ejecución&quot;." vertex="1">
+          <mxGeometry height="78" width="457" x="1227" y="1392" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-35" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="33. Buscar acta Firmada de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="1504" as="sourcePoint" />
+            <mxPoint x="1637" y="1504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-36" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="34. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="1540" as="sourcePoint" />
+            <mxPoint x="2293" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-37" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="35. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="1576" as="sourcePoint" />
+            <mxPoint x="1647" y="1576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-38" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="36. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="1612" as="sourcePoint" />
+            <mxPoint x="1214" y="1612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-39" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 1: obra con acta firmada&lt;/b&gt;&lt;br&gt;Si la obra ya tiene un acta Firmada, responde &quot;La obra ya tiene un acta de&lt;br&gt;recepción firmada&quot;." vertex="1">
+          <mxGeometry height="62" width="451" x="1227" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-40" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="37. Consultar equipos de la obra con su modelo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="1726" as="sourcePoint" />
+            <mxPoint x="1637" y="1726" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-41" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="38. Ejecutar consulta en EquipoHVAC">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="1762" as="sourcePoint" />
+            <mxPoint x="2693" y="1762" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-42" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="39. Resultado de EquipoHVAC">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2693" y="1798" as="sourcePoint" />
+            <mxPoint x="1647" y="1798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-43" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="40. Ejecutar consulta en ModeloHvac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="1834" as="sourcePoint" />
+            <mxPoint x="2893" y="1834" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-44" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="41. Resultado de ModeloHvac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2893" y="1870" as="sourcePoint" />
+            <mxPoint x="1647" y="1870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-45" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="42. Respuesta de EquipoHVAC y ModeloHvac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="1906" as="sourcePoint" />
+            <mxPoint x="1214" y="1906" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-46" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="43. Consultar guías Recibidas de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="1942" as="sourcePoint" />
+            <mxPoint x="1637" y="1942" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-47" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="44. Ejecutar consulta en GuiaDespacho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="1978" as="sourcePoint" />
+            <mxPoint x="3093" y="1978" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-48" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="45. Resultado de GuiaDespacho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3093" y="2014" as="sourcePoint" />
+            <mxPoint x="1647" y="2014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-49" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="46. Ejecutar consulta en OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="2050" as="sourcePoint" />
+            <mxPoint x="3293" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-50" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="47. Resultado de OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3293" y="2086" as="sourcePoint" />
+            <mxPoint x="1647" y="2086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-51" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="48. Respuesta de GuiaDespacho y OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="2122" as="sourcePoint" />
+            <mxPoint x="1214" y="2122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-52" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="49. Consultar devoluciones de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="2158" as="sourcePoint" />
+            <mxPoint x="1637" y="2158" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-53" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="50. Ejecutar consulta en DevolucionObra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="2194" as="sourcePoint" />
+            <mxPoint x="3493" y="2194" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-54" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="51. Resultado de DevolucionObra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3493" y="2230" as="sourcePoint" />
+            <mxPoint x="1647" y="2230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-55" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="52. Respuesta de DevolucionObra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="2266" as="sourcePoint" />
+            <mxPoint x="1214" y="2266" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-56" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="53. Consultar materiales usados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="2302" as="sourcePoint" />
+            <mxPoint x="1637" y="2302" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-57" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="54. Ejecutar consulta en Material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="2338" as="sourcePoint" />
+            <mxPoint x="3693" y="2338" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-58" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="55. Resultado de Material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3693" y="2374" as="sourcePoint" />
+            <mxPoint x="1647" y="2374" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-59" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="56. Respuesta de Material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="2410" as="sourcePoint" />
+            <mxPoint x="1214" y="2410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-60" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Proceso interno&lt;/b&gt;&lt;br&gt;Calcula los materiales usados como lo recibido por guías menos lo devuelto de&lt;br&gt;la obra." vertex="1">
+          <mxGeometry height="62" width="468" x="1227" y="2428" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-61" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="57. Contar guías En Tránsito de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="2524" as="sourcePoint" />
+            <mxPoint x="1637" y="2524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-62" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="58. Ejecutar consulta en GuiaDespacho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="2560" as="sourcePoint" />
+            <mxPoint x="3093" y="2560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-63" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="59. Resultado de GuiaDespacho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3093" y="2596" as="sourcePoint" />
+            <mxPoint x="1647" y="2596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-64" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="60. Ejecutar consulta en OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="2632" as="sourcePoint" />
+            <mxPoint x="3293" y="2632" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-65" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="61. Resultado de OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3293" y="2668" as="sourcePoint" />
+            <mxPoint x="1647" y="2668" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-66" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="62. Respuesta de GuiaDespacho y OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="2704" as="sourcePoint" />
+            <mxPoint x="1214" y="2704" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-67" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="63. Datos de la obra, equipos, materiales y guías en tránsito">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="2740" as="sourcePoint" />
+            <mxPoint x="716" y="2740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-68" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="64. Mostrar obra, equipos, materiales y formulario del cliente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="2776" as="sourcePoint" />
+            <mxPoint x="135" y="2776" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-69" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 4: guías en tránsito&lt;/b&gt;&lt;br&gt;Si hay guías en tránsito, la vista avisa que esos materiales no aparecerán en&lt;br&gt;el acta y exige marcar &quot;Entiendo y deseo continuar&quot;." vertex="1">
+          <mxGeometry height="62" width="468" x="729" y="2794" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-70" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="65. Ingresa datos del cliente, trabajos y conformidad, y presiona &quot;Vista previa y firma&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="2890" as="sourcePoint" />
+            <mxPoint x="706" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-71" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 2: datos incompletos&lt;/b&gt;&lt;br&gt;Si faltan datos obligatorios o el correo no es válido, la vista marca los&lt;br&gt;campos en rojo y muestra &quot;Completa los campos marcados en rojo&quot;." vertex="1">
+          <mxGeometry height="62" width="446" x="729" y="2908" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-72" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="66. Mostrar vista previa del acta y panel de firma">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="3004" as="sourcePoint" />
+            <mxPoint x="135" y="3004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-73" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="67. El cliente firma en el panel y el actor presiona &quot;Generar acta&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="3040" as="sourcePoint" />
+            <mxPoint x="706" y="3040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-74" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 3: firma vacía&lt;/b&gt;&lt;br&gt;Sin firma, el botón &quot;Generar acta&quot; queda deshabilitado." vertex="1">
+          <mxGeometry height="46" width="343" x="729" y="3058" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-75" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="68. Enviar datos del acta y firma del cliente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="3138" as="sourcePoint" />
+            <mxPoint x="1204" y="3138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-76" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="69. Buscar la obra con su estado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="3174" as="sourcePoint" />
+            <mxPoint x="1637" y="3174" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-77" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="70. Ejecutar consulta en Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3210" as="sourcePoint" />
+            <mxPoint x="1893" y="3210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-78" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="71. Resultado de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1893" y="3246" as="sourcePoint" />
+            <mxPoint x="1647" y="3246" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-79" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="72. Ejecutar consulta en EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3282" as="sourcePoint" />
+            <mxPoint x="2093" y="3282" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-80" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="73. Resultado de EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2093" y="3318" as="sourcePoint" />
+            <mxPoint x="1647" y="3318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-81" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="74. Respuesta de Proyecto y EstadoProyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="3354" as="sourcePoint" />
+            <mxPoint x="1214" y="3354" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-82" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="75. Buscar acta Firmada de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="3390" as="sourcePoint" />
+            <mxPoint x="1637" y="3390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-83" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="76. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3426" as="sourcePoint" />
+            <mxPoint x="2293" y="3426" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-84" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="77. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="3462" as="sourcePoint" />
+            <mxPoint x="1647" y="3462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-85" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="78. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="3498" as="sourcePoint" />
+            <mxPoint x="1214" y="3498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-86" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Validación en el servidor&lt;/b&gt;&lt;br&gt;Vuelve a revisar la obra y el acta firmada. Valida campos, correo y RUT:&lt;br&gt;&quot;Completa los campos marcados en rojo&quot; o &quot;El RUT del cliente tiene un formato&lt;br&gt;inválido&quot;. Sin firma responde &quot;El panel de firma está vacío. El cliente debe&lt;br&gt;firmar para generar el acta.&quot;" vertex="1">
+          <mxGeometry height="94" width="468" x="1227" y="3516" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-87" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="79. Consultar equipos de la obra con su modelo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="3644" as="sourcePoint" />
+            <mxPoint x="1637" y="3644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-88" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="80. Ejecutar consulta en EquipoHVAC">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3680" as="sourcePoint" />
+            <mxPoint x="2693" y="3680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-89" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="81. Resultado de EquipoHVAC">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2693" y="3716" as="sourcePoint" />
+            <mxPoint x="1647" y="3716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-90" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="82. Ejecutar consulta en ModeloHvac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3752" as="sourcePoint" />
+            <mxPoint x="2893" y="3752" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-91" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="83. Resultado de ModeloHvac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2893" y="3788" as="sourcePoint" />
+            <mxPoint x="1647" y="3788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-92" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="84. Respuesta de EquipoHVAC y ModeloHvac">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="3824" as="sourcePoint" />
+            <mxPoint x="1214" y="3824" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-93" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="85. Consultar guías Recibidas de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="3860" as="sourcePoint" />
+            <mxPoint x="1637" y="3860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-94" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="86. Ejecutar consulta en GuiaDespacho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3896" as="sourcePoint" />
+            <mxPoint x="3093" y="3896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-95" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="87. Resultado de GuiaDespacho">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3093" y="3932" as="sourcePoint" />
+            <mxPoint x="1647" y="3932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-96" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="88. Ejecutar consulta en OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="3968" as="sourcePoint" />
+            <mxPoint x="3293" y="3968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-97" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="89. Resultado de OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3293" y="4004" as="sourcePoint" />
+            <mxPoint x="1647" y="4004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-98" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="90. Respuesta de GuiaDespacho y OrdenCompra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4040" as="sourcePoint" />
+            <mxPoint x="1214" y="4040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-99" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="91. Consultar devoluciones de la obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="4076" as="sourcePoint" />
+            <mxPoint x="1637" y="4076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-100" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="92. Ejecutar consulta en DevolucionObra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="4112" as="sourcePoint" />
+            <mxPoint x="3493" y="4112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-101" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="93. Resultado de DevolucionObra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3493" y="4148" as="sourcePoint" />
+            <mxPoint x="1647" y="4148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-102" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="94. Respuesta de DevolucionObra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4184" as="sourcePoint" />
+            <mxPoint x="1214" y="4184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-103" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="95. Consultar materiales usados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="4220" as="sourcePoint" />
+            <mxPoint x="1637" y="4220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-104" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="96. Ejecutar consulta en Material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="4256" as="sourcePoint" />
+            <mxPoint x="3693" y="4256" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-105" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="97. Resultado de Material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3693" y="4292" as="sourcePoint" />
+            <mxPoint x="1647" y="4292" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-106" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="98. Respuesta de Material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4328" as="sourcePoint" />
+            <mxPoint x="1214" y="4328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-107" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="99. Obtener el nombre del emisor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="4364" as="sourcePoint" />
+            <mxPoint x="1637" y="4364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-108" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="100. Ejecutar consulta en Usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="4400" as="sourcePoint" />
+            <mxPoint x="2493" y="4400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-109" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="101. Resultado de Usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2493" y="4436" as="sourcePoint" />
+            <mxPoint x="1647" y="4436" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-110" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="102. Respuesta de Usuario">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4472" as="sourcePoint" />
+            <mxPoint x="1214" y="4472" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-111" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="103. Guardar el acta en estado Firmada dentro de una transacción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="4508" as="sourcePoint" />
+            <mxPoint x="1637" y="4508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-112" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="104. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="4544" as="sourcePoint" />
+            <mxPoint x="2293" y="4544" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-113" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="105. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="4580" as="sourcePoint" />
+            <mxPoint x="1647" y="4580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-114" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="106. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4616" as="sourcePoint" />
+            <mxPoint x="1214" y="4616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-115" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="107. Guardar los materiales usados del acta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="4652" as="sourcePoint" />
+            <mxPoint x="1637" y="4652" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-116" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="108. Ejecutar consulta en ActaRecepcionMaterial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="4688" as="sourcePoint" />
+            <mxPoint x="3898" y="4688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-117" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="109. Resultado de ActaRecepcionMaterial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3898" y="4724" as="sourcePoint" />
+            <mxPoint x="1647" y="4724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-118" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="110. Respuesta de ActaRecepcionMaterial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4760" as="sourcePoint" />
+            <mxPoint x="1214" y="4760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-119" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Proceso interno&lt;/b&gt;&lt;br&gt;Genera el PDF del acta con la firma del cliente y la fecha de inicio de la&lt;br&gt;garantía." vertex="1">
+          <mxGeometry height="62" width="451" x="1227" y="4778" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-120" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="111. Guardar la ruta del PDF y confirmar la transacción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="4874" as="sourcePoint" />
+            <mxPoint x="1637" y="4874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-121" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="112. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="4910" as="sourcePoint" />
+            <mxPoint x="2293" y="4910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-122" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="113. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="4946" as="sourcePoint" />
+            <mxPoint x="1647" y="4946" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-123" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="114. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="4982" as="sourcePoint" />
+            <mxPoint x="1214" y="4982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-124" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Error al generar&lt;/b&gt;&lt;br&gt;Si algo falla, deshace la transacción, borra el PDF y responde &quot;No se pudo&lt;br&gt;generar el acta. Intenta nuevamente.&quot;" vertex="1">
+          <mxGeometry height="62" width="451" x="1227" y="5000" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-125" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="115. Registrar la acción en el log de auditoría">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="5096" as="sourcePoint" />
+            <mxPoint x="1637" y="5096" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-126" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="116. Ejecutar consulta en LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="5132" as="sourcePoint" />
+            <mxPoint x="4298" y="5132" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-127" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="117. Resultado de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4298" y="5168" as="sourcePoint" />
+            <mxPoint x="1647" y="5168" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-128" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="118. Respuesta de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="5204" as="sourcePoint" />
+            <mxPoint x="1214" y="5204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-129" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="119. Obtener la plantilla del correo del acta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="5240" as="sourcePoint" />
+            <mxPoint x="1637" y="5240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-130" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="120. Ejecutar consulta en PlantillaCorreo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="5276" as="sourcePoint" />
+            <mxPoint x="4098" y="5276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-131" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="121. Resultado de PlantillaCorreo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4098" y="5312" as="sourcePoint" />
+            <mxPoint x="1647" y="5312" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-132" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="122. Respuesta de PlantillaCorreo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="5348" as="sourcePoint" />
+            <mxPoint x="1214" y="5348" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-133" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 5: fallo en el envío del correo&lt;/b&gt;&lt;br&gt;Envía la copia al cliente con el PDF adjunto. Si el envío falla, el acta queda&lt;br&gt;generada y la respuesta informa que el correo no se envió." vertex="1">
+          <mxGeometry height="62" width="474" x="1227" y="5366" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-134" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="123. N° de acta, ruta del PDF, inicio de la garantía y resultado del correo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="5462" as="sourcePoint" />
+            <mxPoint x="716" y="5462" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-135" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Proceso interno&lt;/b&gt;&lt;br&gt;La vista vuelve a pedir las obras habilitadas y las actas emitidas, con las&lt;br&gt;mismas consultas del inicio." vertex="1">
+          <mxGeometry height="62" width="457" x="729" y="5480" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-136" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="124. Mostrar acta generada e inicio de la garantía, con aviso si el correo no se envió">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="5576" as="sourcePoint" />
+            <mxPoint x="135" y="5576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-137" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="125. Presiona &quot;Reenviar correo&quot; en un acta Firmada del historial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="5612" as="sourcePoint" />
+            <mxPoint x="706" y="5612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-138" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="126. Solicitar reenvío del acta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="5648" as="sourcePoint" />
+            <mxPoint x="1204" y="5648" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-139" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="127. Buscar el acta con su obra">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="5684" as="sourcePoint" />
+            <mxPoint x="1637" y="5684" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-140" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="128. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="5720" as="sourcePoint" />
+            <mxPoint x="2293" y="5720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-141" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="129. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="5756" as="sourcePoint" />
+            <mxPoint x="1647" y="5756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-142" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="130. Ejecutar consulta en Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="5792" as="sourcePoint" />
+            <mxPoint x="1893" y="5792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-143" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="131. Resultado de Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1893" y="5828" as="sourcePoint" />
+            <mxPoint x="1647" y="5828" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-144" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="132. Respuesta de ActaRecepcion y Proyecto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="5864" as="sourcePoint" />
+            <mxPoint x="1214" y="5864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-145" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Reenvío rechazado&lt;/b&gt;&lt;br&gt;Responde &quot;Acta no encontrada&quot;, &quot;Solo se puede reenviar un acta firmada&quot; o &quot;El&lt;br&gt;PDF del acta no se encuentra en el servidor&quot; según corresponda." vertex="1">
+          <mxGeometry height="62" width="468" x="1227" y="5882" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-146" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="133. Obtener la plantilla del correo del acta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="5978" as="sourcePoint" />
+            <mxPoint x="1637" y="5978" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-147" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="134. Ejecutar consulta en PlantillaCorreo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="6014" as="sourcePoint" />
+            <mxPoint x="4098" y="6014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-148" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="135. Resultado de PlantillaCorreo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4098" y="6050" as="sourcePoint" />
+            <mxPoint x="1647" y="6050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-149" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="136. Respuesta de PlantillaCorreo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="6086" as="sourcePoint" />
+            <mxPoint x="1214" y="6086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-150" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Proceso interno&lt;/b&gt;&lt;br&gt;Envía la copia al cliente con el PDF adjunto. Si vuelve a fallar responde &quot;No&lt;br&gt;se pudo enviar el correo. Intenta nuevamente más tarde.&quot;" vertex="1">
+          <mxGeometry height="62" width="468" x="1227" y="6104" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-151" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="137. Registrar la acción en el log de auditoría">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="6200" as="sourcePoint" />
+            <mxPoint x="1637" y="6200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-152" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="138. Ejecutar consulta en LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="6236" as="sourcePoint" />
+            <mxPoint x="4298" y="6236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-153" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="139. Resultado de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4298" y="6272" as="sourcePoint" />
+            <mxPoint x="1647" y="6272" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-154" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="140. Respuesta de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="6308" as="sourcePoint" />
+            <mxPoint x="1214" y="6308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-155" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="141. Acta reenviada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="6344" as="sourcePoint" />
+            <mxPoint x="716" y="6344" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-156" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="142. Mostrar &quot;Acta reenviada&quot; con el correo del cliente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="6380" as="sourcePoint" />
+            <mxPoint x="135" y="6380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-157" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="143. El Administrador Total presiona &quot;Anular&quot; en un acta Firmada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="6416" as="sourcePoint" />
+            <mxPoint x="706" y="6416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-158" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="144. Solicitar el motivo de la anulación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="6452" as="sourcePoint" />
+            <mxPoint x="135" y="6452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-159" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="145. Ingresa el motivo y presiona &quot;Anular acta&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="6488" as="sourcePoint" />
+            <mxPoint x="706" y="6488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-160" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Excepción 6: anulación rechazada&lt;/b&gt;&lt;br&gt;Solo el Administrador Total ve la opción y el servidor rechaza a cualquier&lt;br&gt;otro rol. Sin motivo muestra &quot;Debes indicar el motivo de la anulación&quot;." vertex="1">
+          <mxGeometry height="62" width="451" x="729" y="6506" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-161" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="146. Enviar anulación con el motivo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="6602" as="sourcePoint" />
+            <mxPoint x="1204" y="6602" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-162" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="147. Buscar el acta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="6638" as="sourcePoint" />
+            <mxPoint x="1637" y="6638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-163" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="148. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="6674" as="sourcePoint" />
+            <mxPoint x="2293" y="6674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-164" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="149. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="6710" as="sourcePoint" />
+            <mxPoint x="1647" y="6710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-165" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="150. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="6746" as="sourcePoint" />
+            <mxPoint x="1214" y="6746" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-166" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Anulación no aplicable&lt;/b&gt;&lt;br&gt;Responde &quot;Acta no encontrada&quot; si no existe o &quot;El acta ya se encuentra anulada&quot;&lt;br&gt;si no está Firmada." vertex="1">
+          <mxGeometry height="62" width="474" x="1227" y="6764" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-167" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="151. Guardar estado Anulada, motivo y fecha de anulación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="6860" as="sourcePoint" />
+            <mxPoint x="1637" y="6860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-168" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="152. Ejecutar consulta en ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="6896" as="sourcePoint" />
+            <mxPoint x="2293" y="6896" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-169" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="153. Resultado de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2293" y="6932" as="sourcePoint" />
+            <mxPoint x="1647" y="6932" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-170" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="154. Respuesta de ActaRecepcion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="6968" as="sourcePoint" />
+            <mxPoint x="1214" y="6968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-171" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="155. Registrar la acción en el log de auditoría">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1214" y="7004" as="sourcePoint" />
+            <mxPoint x="1637" y="7004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-172" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=block;endFill=1;" value="156. Ejecutar consulta en LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="7040" as="sourcePoint" />
+            <mxPoint x="4298" y="7040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-173" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="157. Resultado de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4298" y="7076" as="sourcePoint" />
+            <mxPoint x="1647" y="7076" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-174" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="158. Respuesta de LogAuditoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1637" y="7112" as="sourcePoint" />
+            <mxPoint x="1214" y="7112" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-175" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="159. Acta anulada y obra habilitada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1204" y="7148" as="sourcePoint" />
+            <mxPoint x="716" y="7148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-176" parent="1" style="rounded=1;arcSize=10;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=10;align=left;verticalAlign=middle;spacingLeft=8;spacingRight=6;" value="&lt;b&gt;Proceso interno&lt;/b&gt;&lt;br&gt;La vista vuelve a pedir las obras habilitadas y las actas emitidas, con las&lt;br&gt;mismas consultas del inicio." vertex="1">
+          <mxGeometry height="62" width="457" x="729" y="7166" as="geometry" />
+        </mxCell>
+        <mxCell id="IJP2B4Lr5kOwCEG66ePw-177" edge="1" parent="1" style="html=1;rounded=0;fontSize=11;labelBackgroundColor=none;verticalAlign=bottom;strokeColor=#000000;fontColor=#000000;endArrow=open;endFill=0;dashed=1;endSize=8;" value="160. Mostrar &quot;Acta anulada. La obra queda habilitada para emitir una nueva acta.&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="706" y="7262" as="sourcePoint" />
+            <mxPoint x="135" y="7262" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
